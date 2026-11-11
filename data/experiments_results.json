@@ -1,0 +1,6908 @@
+{
+  "metadata": {
+    "total_instances": 3000,
+    "probabilities": [
+      0.15,
+      0.25,
+      0.35
+    ],
+    "instances_per_p": 1000,
+    "seed": 42,
+    "allow_self_attacks": false,
+    "elapsed_seconds": 35.31
+  },
+  "p_summaries": {
+    "0.15": {
+      "p": 0.15,
+      "total_instances": 1000,
+      "strategyproof_count": 640,
+      "strategyproof_fraction": 0.64,
+      "strategyproof_percentage": 64.0,
+      "t5_4_satisfied_count": 167,
+      "t5_4_satisfied_fraction": 0.167,
+      "t5_4_satisfied_percentage": 16.7,
+      "categories": {
+        "T5.4 Satisfied & Strategyproof": 167,
+        "T5.4 Failed & Strategyproof": 473,
+        "T5.4 Failed & Not Strategyproof": 360,
+        "T5.4 Satisfied & Not Strategyproof": 0
+      },
+      "sample_t5_4_fail_but_sp": {
+        "instance_id": 1,
+        "p": 0.15,
+        "num_arguments": 8,
+        "num_attacks": 11,
+        "is_strategyproof": true,
+        "satisfies_theorem_5_4": false,
+        "category": "T5.4 Failed & Strategyproof",
+        "counterexample_count": 0,
+        "t5_4_violations_count": 4,
+        "arguments": [
+          "arg_1",
+          "arg_2",
+          "arg_3",
+          "arg_4",
+          "arg_5",
+          "arg_6",
+          "arg_7",
+          "arg_8"
+        ],
+        "attacks": [
+          [
+            "arg_1",
+            "arg_2"
+          ],
+          [
+            "arg_1",
+            "arg_5"
+          ],
+          [
+            "arg_1",
+            "arg_6"
+          ],
+          [
+            "arg_2",
+            "arg_3"
+          ],
+          [
+            "arg_2",
+            "arg_4"
+          ],
+          [
+            "arg_4",
+            "arg_6"
+          ],
+          [
+            "arg_5",
+            "arg_3"
+          ],
+          [
+            "arg_5",
+            "arg_6"
+          ],
+          [
+            "arg_5",
+            "arg_8"
+          ],
+          [
+            "arg_6",
+            "arg_7"
+          ],
+          [
+            "arg_8",
+            "arg_6"
+          ]
+        ],
+        "agent_ownership": {
+          "Agent_1": [
+            "arg_2",
+            "arg_4",
+            "arg_7",
+            "arg_8"
+          ],
+          "Agent_2": [
+            "arg_1",
+            "arg_6"
+          ],
+          "Agent_3": [
+            "arg_3",
+            "arg_5"
+          ]
+        }
+      },
+      "sample_t5_4_fail_and_not_sp": {
+        "instance_id": 3,
+        "p": 0.15,
+        "num_arguments": 8,
+        "num_attacks": 9,
+        "is_strategyproof": false,
+        "satisfies_theorem_5_4": false,
+        "category": "T5.4 Failed & Not Strategyproof",
+        "counterexample_count": 8,
+        "t5_4_violations_count": 3,
+        "arguments": [
+          "arg_1",
+          "arg_2",
+          "arg_3",
+          "arg_4",
+          "arg_5",
+          "arg_6",
+          "arg_7",
+          "arg_8"
+        ],
+        "attacks": [
+          [
+            "arg_2",
+            "arg_3"
+          ],
+          [
+            "arg_3",
+            "arg_2"
+          ],
+          [
+            "arg_3",
+            "arg_8"
+          ],
+          [
+            "arg_6",
+            "arg_3"
+          ],
+          [
+            "arg_6",
+            "arg_4"
+          ],
+          [
+            "arg_6",
+            "arg_8"
+          ],
+          [
+            "arg_7",
+            "arg_2"
+          ],
+          [
+            "arg_7",
+            "arg_3"
+          ],
+          [
+            "arg_7",
+            "arg_4"
+          ]
+        ],
+        "agent_ownership": {
+          "Agent_1": [
+            "arg_2",
+            "arg_5"
+          ],
+          "Agent_2": [
+            "arg_3",
+            "arg_4",
+            "arg_6"
+          ],
+          "Agent_3": [
+            "arg_1",
+            "arg_7",
+            "arg_8"
+          ]
+        }
+      }
+    },
+    "0.25": {
+      "p": 0.25,
+      "total_instances": 1000,
+      "strategyproof_count": 281,
+      "strategyproof_fraction": 0.281,
+      "strategyproof_percentage": 28.1,
+      "t5_4_satisfied_count": 27,
+      "t5_4_satisfied_fraction": 0.027,
+      "t5_4_satisfied_percentage": 2.7,
+      "categories": {
+        "T5.4 Satisfied & Strategyproof": 27,
+        "T5.4 Failed & Strategyproof": 254,
+        "T5.4 Failed & Not Strategyproof": 719,
+        "T5.4 Satisfied & Not Strategyproof": 0
+      },
+      "sample_t5_4_fail_but_sp": {
+        "instance_id": 1002,
+        "p": 0.25,
+        "num_arguments": 8,
+        "num_attacks": 10,
+        "is_strategyproof": true,
+        "satisfies_theorem_5_4": false,
+        "category": "T5.4 Failed & Strategyproof",
+        "counterexample_count": 0,
+        "t5_4_violations_count": 3,
+        "arguments": [
+          "arg_1",
+          "arg_2",
+          "arg_3",
+          "arg_4",
+          "arg_5",
+          "arg_6",
+          "arg_7",
+          "arg_8"
+        ],
+        "attacks": [
+          [
+            "arg_2",
+            "arg_3"
+          ],
+          [
+            "arg_2",
+            "arg_4"
+          ],
+          [
+            "arg_2",
+            "arg_7"
+          ],
+          [
+            "arg_3",
+            "arg_4"
+          ],
+          [
+            "arg_3",
+            "arg_7"
+          ],
+          [
+            "arg_4",
+            "arg_7"
+          ],
+          [
+            "arg_5",
+            "arg_1"
+          ],
+          [
+            "arg_5",
+            "arg_7"
+          ],
+          [
+            "arg_6",
+            "arg_3"
+          ],
+          [
+            "arg_8",
+            "arg_6"
+          ]
+        ],
+        "agent_ownership": {
+          "Agent_1": [
+            "arg_2",
+            "arg_4",
+            "arg_8"
+          ],
+          "Agent_2": [
+            "arg_5",
+            "arg_6"
+          ],
+          "Agent_3": [
+            "arg_1",
+            "arg_3",
+            "arg_7"
+          ]
+        }
+      },
+      "sample_t5_4_fail_and_not_sp": {
+        "instance_id": 1001,
+        "p": 0.25,
+        "num_arguments": 8,
+        "num_attacks": 16,
+        "is_strategyproof": false,
+        "satisfies_theorem_5_4": false,
+        "category": "T5.4 Failed & Not Strategyproof",
+        "counterexample_count": 97,
+        "t5_4_violations_count": 22,
+        "arguments": [
+          "arg_1",
+          "arg_2",
+          "arg_3",
+          "arg_4",
+          "arg_5",
+          "arg_6",
+          "arg_7",
+          "arg_8"
+        ],
+        "attacks": [
+          [
+            "arg_1",
+            "arg_4"
+          ],
+          [
+            "arg_2",
+            "arg_8"
+          ],
+          [
+            "arg_3",
+            "arg_2"
+          ],
+          [
+            "arg_3",
+            "arg_5"
+          ],
+          [
+            "arg_3",
+            "arg_7"
+          ],
+          [
+            "arg_3",
+            "arg_8"
+          ],
+          [
+            "arg_4",
+            "arg_1"
+          ],
+          [
+            "arg_4",
+            "arg_8"
+          ],
+          [
+            "arg_5",
+            "arg_3"
+          ],
+          [
+            "arg_6",
+            "arg_1"
+          ],
+          [
+            "arg_6",
+            "arg_3"
+          ],
+          [
+            "arg_6",
+            "arg_4"
+          ],
+          [
+            "arg_7",
+            "arg_2"
+          ],
+          [
+            "arg_7",
+            "arg_6"
+          ],
+          [
+            "arg_8",
+            "arg_2"
+          ],
+          [
+            "arg_8",
+            "arg_3"
+          ]
+        ],
+        "agent_ownership": {
+          "Agent_1": [
+            "arg_1",
+            "arg_4",
+            "arg_5"
+          ],
+          "Agent_2": [
+            "arg_2",
+            "arg_3"
+          ],
+          "Agent_3": [
+            "arg_6",
+            "arg_7",
+            "arg_8"
+          ]
+        }
+      }
+    },
+    "0.35": {
+      "p": 0.35,
+      "total_instances": 1000,
+      "strategyproof_count": 111,
+      "strategyproof_fraction": 0.111,
+      "strategyproof_percentage": 11.1,
+      "t5_4_satisfied_count": 4,
+      "t5_4_satisfied_fraction": 0.004,
+      "t5_4_satisfied_percentage": 0.4,
+      "categories": {
+        "T5.4 Satisfied & Strategyproof": 4,
+        "T5.4 Failed & Strategyproof": 107,
+        "T5.4 Failed & Not Strategyproof": 889,
+        "T5.4 Satisfied & Not Strategyproof": 0
+      },
+      "sample_t5_4_fail_but_sp": {
+        "instance_id": 2034,
+        "p": 0.35,
+        "num_arguments": 8,
+        "num_attacks": 26,
+        "is_strategyproof": true,
+        "satisfies_theorem_5_4": false,
+        "category": "T5.4 Failed & Strategyproof",
+        "counterexample_count": 0,
+        "t5_4_violations_count": 14,
+        "arguments": [
+          "arg_1",
+          "arg_2",
+          "arg_3",
+          "arg_4",
+          "arg_5",
+          "arg_6",
+          "arg_7",
+          "arg_8"
+        ],
+        "attacks": [
+          [
+            "arg_1",
+            "arg_2"
+          ],
+          [
+            "arg_1",
+            "arg_3"
+          ],
+          [
+            "arg_2",
+            "arg_1"
+          ],
+          [
+            "arg_2",
+            "arg_3"
+          ],
+          [
+            "arg_2",
+            "arg_4"
+          ],
+          [
+            "arg_2",
+            "arg_6"
+          ],
+          [
+            "arg_2",
+            "arg_8"
+          ],
+          [
+            "arg_4",
+            "arg_2"
+          ],
+          [
+            "arg_4",
+            "arg_3"
+          ],
+          [
+            "arg_4",
+            "arg_6"
+          ],
+          [
+            "arg_4",
+            "arg_8"
+          ],
+          [
+            "arg_5",
+            "arg_1"
+          ],
+          [
+            "arg_5",
+            "arg_2"
+          ],
+          [
+            "arg_5",
+            "arg_3"
+          ],
+          [
+            "arg_5",
+            "arg_7"
+          ],
+          [
+            "arg_5",
+            "arg_8"
+          ],
+          [
+            "arg_6",
+            "arg_1"
+          ],
+          [
+            "arg_6",
+            "arg_2"
+          ],
+          [
+            "arg_6",
+            "arg_8"
+          ],
+          [
+            "arg_7",
+            "arg_1"
+          ],
+          [
+            "arg_7",
+            "arg_2"
+          ],
+          [
+            "arg_7",
+            "arg_8"
+          ],
+          [
+            "arg_8",
+            "arg_2"
+          ],
+          [
+            "arg_8",
+            "arg_3"
+          ],
+          [
+            "arg_8",
+            "arg_4"
+          ],
+          [
+            "arg_8",
+            "arg_6"
+          ]
+        ],
+        "agent_ownership": {
+          "Agent_1": [
+            "arg_1",
+            "arg_2",
+            "arg_5"
+          ],
+          "Agent_2": [
+            "arg_6",
+            "arg_7",
+            "arg_8"
+          ],
+          "Agent_3": [
+            "arg_3",
+            "arg_4"
+          ]
+        }
+      },
+      "sample_t5_4_fail_and_not_sp": {
+        "instance_id": 2001,
+        "p": 0.35,
+        "num_arguments": 7,
+        "num_attacks": 15,
+        "is_strategyproof": false,
+        "satisfies_theorem_5_4": false,
+        "category": "T5.4 Failed & Not Strategyproof",
+        "counterexample_count": 27,
+        "t5_4_violations_count": 15,
+        "arguments": [
+          "arg_1",
+          "arg_2",
+          "arg_3",
+          "arg_4",
+          "arg_5",
+          "arg_6",
+          "arg_7"
+        ],
+        "attacks": [
+          [
+            "arg_1",
+            "arg_3"
+          ],
+          [
+            "arg_1",
+            "arg_4"
+          ],
+          [
+            "arg_2",
+            "arg_5"
+          ],
+          [
+            "arg_2",
+            "arg_6"
+          ],
+          [
+            "arg_3",
+            "arg_1"
+          ],
+          [
+            "arg_3",
+            "arg_5"
+          ],
+          [
+            "arg_3",
+            "arg_6"
+          ],
+          [
+            "arg_4",
+            "arg_1"
+          ],
+          [
+            "arg_4",
+            "arg_2"
+          ],
+          [
+            "arg_4",
+            "arg_3"
+          ],
+          [
+            "arg_4",
+            "arg_6"
+          ],
+          [
+            "arg_5",
+            "arg_2"
+          ],
+          [
+            "arg_6",
+            "arg_3"
+          ],
+          [
+            "arg_7",
+            "arg_2"
+          ],
+          [
+            "arg_7",
+            "arg_3"
+          ]
+        ],
+        "agent_ownership": {
+          "Agent_1": [
+            "arg_1",
+            "arg_3"
+          ],
+          "Agent_2": [
+            "arg_2",
+            "arg_4",
+            "arg_6"
+          ],
+          "Agent_3": [
+            "arg_5",
+            "arg_7"
+          ]
+        }
+      }
+    }
+  },
+  "sample_records": [
+    {
+      "instance_id": 1,
+      "p": 0.15,
+      "num_arguments": 8,
+      "num_attacks": 11,
+      "is_strategyproof": true,
+      "satisfies_theorem_5_4": false,
+      "category": "T5.4 Failed & Strategyproof",
+      "counterexample_count": 0,
+      "t5_4_violations_count": 4,
+      "arguments": [
+        "arg_1",
+        "arg_2",
+        "arg_3",
+        "arg_4",
+        "arg_5",
+        "arg_6",
+        "arg_7",
+        "arg_8"
+      ],
+      "attacks": [
+        [
+          "arg_1",
+          "arg_2"
+        ],
+        [
+          "arg_1",
+          "arg_5"
+        ],
+        [
+          "arg_1",
+          "arg_6"
+        ],
+        [
+          "arg_2",
+          "arg_3"
+        ],
+        [
+          "arg_2",
+          "arg_4"
+        ],
+        [
+          "arg_4",
+          "arg_6"
+        ],
+        [
+          "arg_5",
+          "arg_3"
+        ],
+        [
+          "arg_5",
+          "arg_6"
+        ],
+        [
+          "arg_5",
+          "arg_8"
+        ],
+        [
+          "arg_6",
+          "arg_7"
+        ],
+        [
+          "arg_8",
+          "arg_6"
+        ]
+      ],
+      "agent_ownership": {
+        "Agent_1": [
+          "arg_2",
+          "arg_4",
+          "arg_7",
+          "arg_8"
+        ],
+        "Agent_2": [
+          "arg_1",
+          "arg_6"
+        ],
+        "Agent_3": [
+          "arg_3",
+          "arg_5"
+        ]
+      }
+    },
+    {
+      "instance_id": 2,
+      "p": 0.15,
+      "num_arguments": 7,
+      "num_attacks": 6,
+      "is_strategyproof": true,
+      "satisfies_theorem_5_4": false,
+      "category": "T5.4 Failed & Strategyproof",
+      "counterexample_count": 0,
+      "t5_4_violations_count": 2,
+      "arguments": [
+        "arg_1",
+        "arg_2",
+        "arg_3",
+        "arg_4",
+        "arg_5",
+        "arg_6",
+        "arg_7"
+      ],
+      "attacks": [
+        [
+          "arg_1",
+          "arg_3"
+        ],
+        [
+          "arg_2",
+          "arg_5"
+        ],
+        [
+          "arg_2",
+          "arg_6"
+        ],
+        [
+          "arg_4",
+          "arg_1"
+        ],
+        [
+          "arg_6",
+          "arg_4"
+        ],
+        [
+          "arg_7",
+          "arg_5"
+        ]
+      ],
+      "agent_ownership": {
+        "Agent_1": [
+          "arg_4"
+        ],
+        "Agent_2": [
+          "arg_1",
+          "arg_5"
+        ],
+        "Agent_3": [
+          "arg_2",
+          "arg_3",
+          "arg_6",
+          "arg_7"
+        ]
+      }
+    },
+    {
+      "instance_id": 3,
+      "p": 0.15,
+      "num_arguments": 8,
+      "num_attacks": 9,
+      "is_strategyproof": false,
+      "satisfies_theorem_5_4": false,
+      "category": "T5.4 Failed & Not Strategyproof",
+      "counterexample_count": 8,
+      "t5_4_violations_count": 3,
+      "arguments": [
+        "arg_1",
+        "arg_2",
+        "arg_3",
+        "arg_4",
+        "arg_5",
+        "arg_6",
+        "arg_7",
+        "arg_8"
+      ],
+      "attacks": [
+        [
+          "arg_2",
+          "arg_3"
+        ],
+        [
+          "arg_3",
+          "arg_2"
+        ],
+        [
+          "arg_3",
+          "arg_8"
+        ],
+        [
+          "arg_6",
+          "arg_3"
+        ],
+        [
+          "arg_6",
+          "arg_4"
+        ],
+        [
+          "arg_6",
+          "arg_8"
+        ],
+        [
+          "arg_7",
+          "arg_2"
+        ],
+        [
+          "arg_7",
+          "arg_3"
+        ],
+        [
+          "arg_7",
+          "arg_4"
+        ]
+      ],
+      "agent_ownership": {
+        "Agent_1": [
+          "arg_2",
+          "arg_5"
+        ],
+        "Agent_2": [
+          "arg_3",
+          "arg_4",
+          "arg_6"
+        ],
+        "Agent_3": [
+          "arg_1",
+          "arg_7",
+          "arg_8"
+        ]
+      }
+    },
+    {
+      "instance_id": 4,
+      "p": 0.15,
+      "num_arguments": 8,
+      "num_attacks": 6,
+      "is_strategyproof": true,
+      "satisfies_theorem_5_4": false,
+      "category": "T5.4 Failed & Strategyproof",
+      "counterexample_count": 0,
+      "t5_4_violations_count": 1,
+      "arguments": [
+        "arg_1",
+        "arg_2",
+        "arg_3",
+        "arg_4",
+        "arg_5",
+        "arg_6",
+        "arg_7",
+        "arg_8"
+      ],
+      "attacks": [
+        [
+          "arg_1",
+          "arg_3"
+        ],
+        [
+          "arg_3",
+          "arg_2"
+        ],
+        [
+          "arg_4",
+          "arg_6"
+        ],
+        [
+          "arg_7",
+          "arg_1"
+        ],
+        [
+          "arg_7",
+          "arg_8"
+        ],
+        [
+          "arg_8",
+          "arg_5"
+        ]
+      ],
+      "agent_ownership": {
+        "Agent_1": [
+          "arg_5",
+          "arg_7"
+        ],
+        "Agent_2": [
+          "arg_1",
+          "arg_6",
+          "arg_8"
+        ],
+        "Agent_3": [
+          "arg_2",
+          "arg_3",
+          "arg_4"
+        ]
+      }
+    },
+    {
+      "instance_id": 5,
+      "p": 0.15,
+      "num_arguments": 7,
+      "num_attacks": 7,
+      "is_strategyproof": true,
+      "satisfies_theorem_5_4": false,
+      "category": "T5.4 Failed & Strategyproof",
+      "counterexample_count": 0,
+      "t5_4_violations_count": 1,
+      "arguments": [
+        "arg_1",
+        "arg_2",
+        "arg_3",
+        "arg_4",
+        "arg_5",
+        "arg_6",
+        "arg_7"
+      ],
+      "attacks": [
+        [
+          "arg_1",
+          "arg_2"
+        ],
+        [
+          "arg_1",
+          "arg_7"
+        ],
+        [
+          "arg_2",
+          "arg_4"
+        ],
+        [
+          "arg_2",
+          "arg_7"
+        ],
+        [
+          "arg_3",
+          "arg_2"
+        ],
+        [
+          "arg_5",
+          "arg_2"
+        ],
+        [
+          "arg_7",
+          "arg_4"
+        ]
+      ],
+      "agent_ownership": {
+        "Agent_1": [
+          "arg_2",
+          "arg_6"
+        ],
+        "Agent_2": [
+          "arg_4",
+          "arg_7"
+        ],
+        "Agent_3": [
+          "arg_1",
+          "arg_3",
+          "arg_5"
+        ]
+      }
+    },
+    {
+      "instance_id": 6,
+      "p": 0.15,
+      "num_arguments": 8,
+      "num_attacks": 8,
+      "is_strategyproof": false,
+      "satisfies_theorem_5_4": false,
+      "category": "T5.4 Failed & Not Strategyproof",
+      "counterexample_count": 2,
+      "t5_4_violations_count": 10,
+      "arguments": [
+        "arg_1",
+        "arg_2",
+        "arg_3",
+        "arg_4",
+        "arg_5",
+        "arg_6",
+        "arg_7",
+        "arg_8"
+      ],
+      "attacks": [
+        [
+          "arg_1",
+          "arg_3"
+        ],
+        [
+          "arg_1",
+          "arg_4"
+        ],
+        [
+          "arg_2",
+          "arg_3"
+        ],
+        [
+          "arg_2",
+          "arg_4"
+        ],
+        [
+          "arg_3",
+          "arg_5"
+        ],
+        [
+          "arg_5",
+          "arg_1"
+        ],
+        [
+          "arg_6",
+          "arg_3"
+        ],
+        [
+          "arg_7",
+          "arg_5"
+        ]
+      ],
+      "agent_ownership": {
+        "Agent_1": [
+          "arg_5"
+        ],
+        "Agent_2": [
+          "arg_1",
+          "arg_2",
+          "arg_3",
+          "arg_4"
+        ],
+        "Agent_3": [
+          "arg_6",
+          "arg_7",
+          "arg_8"
+        ]
+      }
+    },
+    {
+      "instance_id": 7,
+      "p": 0.15,
+      "num_arguments": 7,
+      "num_attacks": 4,
+      "is_strategyproof": true,
+      "satisfies_theorem_5_4": false,
+      "category": "T5.4 Failed & Strategyproof",
+      "counterexample_count": 0,
+      "t5_4_violations_count": 1,
+      "arguments": [
+        "arg_1",
+        "arg_2",
+        "arg_3",
+        "arg_4",
+        "arg_5",
+        "arg_6",
+        "arg_7"
+      ],
+      "attacks": [
+        [
+          "arg_2",
+          "arg_1"
+        ],
+        [
+          "arg_3",
+          "arg_2"
+        ],
+        [
+          "arg_5",
+          "arg_1"
+        ],
+        [
+          "arg_6",
+          "arg_3"
+        ]
+      ],
+      "agent_ownership": {
+        "Agent_1": [
+          "arg_1",
+          "arg_2",
+          "arg_4"
+        ],
+        "Agent_2": [
+          "arg_3",
+          "arg_7"
+        ],
+        "Agent_3": [
+          "arg_5",
+          "arg_6"
+        ]
+      }
+    },
+    {
+      "instance_id": 8,
+      "p": 0.15,
+      "num_arguments": 6,
+      "num_attacks": 5,
+      "is_strategyproof": true,
+      "satisfies_theorem_5_4": false,
+      "category": "T5.4 Failed & Strategyproof",
+      "counterexample_count": 0,
+      "t5_4_violations_count": 2,
+      "arguments": [
+        "arg_1",
+        "arg_2",
+        "arg_3",
+        "arg_4",
+        "arg_5",
+        "arg_6"
+      ],
+      "attacks": [
+        [
+          "arg_1",
+          "arg_3"
+        ],
+        [
+          "arg_1",
+          "arg_4"
+        ],
+        [
+          "arg_3",
+          "arg_4"
+        ],
+        [
+          "arg_5",
+          "arg_6"
+        ],
+        [
+          "arg_6",
+          "arg_1"
+        ]
+      ],
+      "agent_ownership": {
+        "Agent_1": [
+          "arg_1",
+          "arg_6"
+        ],
+        "Agent_2": [
+          "arg_2",
+          "arg_4"
+        ],
+        "Agent_3": [
+          "arg_3",
+          "arg_5"
+        ]
+      }
+    },
+    {
+      "instance_id": 9,
+      "p": 0.15,
+      "num_arguments": 7,
+      "num_attacks": 5,
+      "is_strategyproof": true,
+      "satisfies_theorem_5_4": true,
+      "category": "T5.4 Satisfied & Strategyproof",
+      "counterexample_count": 0,
+      "t5_4_violations_count": 0,
+      "arguments": [
+        "arg_1",
+        "arg_2",
+        "arg_3",
+        "arg_4",
+        "arg_5",
+        "arg_6",
+        "arg_7"
+      ],
+      "attacks": [
+        [
+          "arg_2",
+          "arg_3"
+        ],
+        [
+          "arg_3",
+          "arg_1"
+        ],
+        [
+          "arg_3",
+          "arg_6"
+        ],
+        [
+          "arg_5",
+          "arg_6"
+        ],
+        [
+          "arg_7",
+          "arg_5"
+        ]
+      ],
+      "agent_ownership": {
+        "Agent_1": [
+          "arg_5"
+        ],
+        "Agent_2": [
+          "arg_3",
+          "arg_7"
+        ],
+        "Agent_3": [
+          "arg_1",
+          "arg_2",
+          "arg_4",
+          "arg_6"
+        ]
+      }
+    },
+    {
+      "instance_id": 10,
+      "p": 0.15,
+      "num_arguments": 6,
+      "num_attacks": 6,
+      "is_strategyproof": true,
+      "satisfies_theorem_5_4": false,
+      "category": "T5.4 Failed & Strategyproof",
+      "counterexample_count": 0,
+      "t5_4_violations_count": 1,
+      "arguments": [
+        "arg_1",
+        "arg_2",
+        "arg_3",
+        "arg_4",
+        "arg_5",
+        "arg_6"
+      ],
+      "attacks": [
+        [
+          "arg_1",
+          "arg_2"
+        ],
+        [
+          "arg_4",
+          "arg_1"
+        ],
+        [
+          "arg_4",
+          "arg_5"
+        ],
+        [
+          "arg_5",
+          "arg_1"
+        ],
+        [
+          "arg_5",
+          "arg_2"
+        ],
+        [
+          "arg_6",
+          "arg_3"
+        ]
+      ],
+      "agent_ownership": {
+        "Agent_1": [
+          "arg_2",
+          "arg_3",
+          "arg_4"
+        ],
+        "Agent_2": [
+          "arg_1",
+          "arg_6"
+        ],
+        "Agent_3": [
+          "arg_5"
+        ]
+      }
+    },
+    {
+      "instance_id": 11,
+      "p": 0.15,
+      "num_arguments": 8,
+      "num_attacks": 8,
+      "is_strategyproof": false,
+      "satisfies_theorem_5_4": false,
+      "category": "T5.4 Failed & Not Strategyproof",
+      "counterexample_count": 10,
+      "t5_4_violations_count": 5,
+      "arguments": [
+        "arg_1",
+        "arg_2",
+        "arg_3",
+        "arg_4",
+        "arg_5",
+        "arg_6",
+        "arg_7",
+        "arg_8"
+      ],
+      "attacks": [
+        [
+          "arg_1",
+          "arg_2"
+        ],
+        [
+          "arg_1",
+          "arg_8"
+        ],
+        [
+          "arg_2",
+          "arg_4"
+        ],
+        [
+          "arg_2",
+          "arg_8"
+        ],
+        [
+          "arg_4",
+          "arg_3"
+        ],
+        [
+          "arg_6",
+          "arg_7"
+        ],
+        [
+          "arg_7",
+          "arg_5"
+        ],
+        [
+          "arg_8",
+          "arg_7"
+        ]
+      ],
+      "agent_ownership": {
+        "Agent_1": [
+          "arg_6"
+        ],
+        "Agent_2": [
+          "arg_4",
+          "arg_7",
+          "arg_8"
+        ],
+        "Agent_3": [
+          "arg_1",
+          "arg_2",
+          "arg_3",
+          "arg_5"
+        ]
+      }
+    },
+    {
+      "instance_id": 12,
+      "p": 0.15,
+      "num_arguments": 7,
+      "num_attacks": 6,
+      "is_strategyproof": false,
+      "satisfies_theorem_5_4": false,
+      "category": "T5.4 Failed & Not Strategyproof",
+      "counterexample_count": 14,
+      "t5_4_violations_count": 8,
+      "arguments": [
+        "arg_1",
+        "arg_2",
+        "arg_3",
+        "arg_4",
+        "arg_5",
+        "arg_6",
+        "arg_7"
+      ],
+      "attacks": [
+        [
+          "arg_1",
+          "arg_3"
+        ],
+        [
+          "arg_3",
+          "arg_4"
+        ],
+        [
+          "arg_3",
+          "arg_6"
+        ],
+        [
+          "arg_5",
+          "arg_3"
+        ],
+        [
+          "arg_6",
+          "arg_1"
+        ],
+        [
+          "arg_7",
+          "arg_1"
+        ]
+      ],
+      "agent_ownership": {
+        "Agent_1": [
+          "arg_1",
+          "arg_2",
+          "arg_7"
+        ],
+        "Agent_2": [
+          "arg_3",
+          "arg_4",
+          "arg_6"
+        ],
+        "Agent_3": [
+          "arg_5"
+        ]
+      }
+    },
+    {
+      "instance_id": 13,
+      "p": 0.15,
+      "num_arguments": 6,
+      "num_attacks": 4,
+      "is_strategyproof": true,
+      "satisfies_theorem_5_4": true,
+      "category": "T5.4 Satisfied & Strategyproof",
+      "counterexample_count": 0,
+      "t5_4_violations_count": 0,
+      "arguments": [
+        "arg_1",
+        "arg_2",
+        "arg_3",
+        "arg_4",
+        "arg_5",
+        "arg_6"
+      ],
+      "attacks": [
+        [
+          "arg_2",
+          "arg_1"
+        ],
+        [
+          "arg_4",
+          "arg_5"
+        ],
+        [
+          "arg_5",
+          "arg_1"
+        ],
+        [
+          "arg_5",
+          "arg_6"
+        ]
+      ],
+      "agent_ownership": {
+        "Agent_1": [
+          "arg_5"
+        ],
+        "Agent_2": [
+          "arg_2",
+          "arg_3"
+        ],
+        "Agent_3": [
+          "arg_1",
+          "arg_4",
+          "arg_6"
+        ]
+      }
+    },
+    {
+      "instance_id": 14,
+      "p": 0.15,
+      "num_arguments": 7,
+      "num_attacks": 7,
+      "is_strategyproof": false,
+      "satisfies_theorem_5_4": false,
+      "category": "T5.4 Failed & Not Strategyproof",
+      "counterexample_count": 36,
+      "t5_4_violations_count": 11,
+      "arguments": [
+        "arg_1",
+        "arg_2",
+        "arg_3",
+        "arg_4",
+        "arg_5",
+        "arg_6",
+        "arg_7"
+      ],
+      "attacks": [
+        [
+          "arg_1",
+          "arg_2"
+        ],
+        [
+          "arg_2",
+          "arg_3"
+        ],
+        [
+          "arg_2",
+          "arg_5"
+        ],
+        [
+          "arg_2",
+          "arg_7"
+        ],
+        [
+          "arg_3",
+          "arg_1"
+        ],
+        [
+          "arg_5",
+          "arg_6"
+        ],
+        [
+          "arg_6",
+          "arg_4"
+        ]
+      ],
+      "agent_ownership": {
+        "Agent_1": [
+          "arg_7"
+        ],
+        "Agent_2": [
+          "arg_1",
+          "arg_3",
+          "arg_4",
+          "arg_6"
+        ],
+        "Agent_3": [
+          "arg_2",
+          "arg_5"
+        ]
+      }
+    },
+    {
+      "instance_id": 15,
+      "p": 0.15,
+      "num_arguments": 6,
+      "num_attacks": 1,
+      "is_strategyproof": true,
+      "satisfies_theorem_5_4": true,
+      "category": "T5.4 Satisfied & Strategyproof",
+      "counterexample_count": 0,
+      "t5_4_violations_count": 0,
+      "arguments": [
+        "arg_1",
+        "arg_2",
+        "arg_3",
+        "arg_4",
+        "arg_5",
+        "arg_6"
+      ],
+      "attacks": [
+        [
+          "arg_6",
+          "arg_3"
+        ]
+      ],
+      "agent_ownership": {
+        "Agent_1": [
+          "arg_2",
+          "arg_5"
+        ],
+        "Agent_2": [
+          "arg_1",
+          "arg_6"
+        ],
+        "Agent_3": [
+          "arg_3",
+          "arg_4"
+        ]
+      }
+    },
+    {
+      "instance_id": 16,
+      "p": 0.15,
+      "num_arguments": 6,
+      "num_attacks": 2,
+      "is_strategyproof": true,
+      "satisfies_theorem_5_4": false,
+      "category": "T5.4 Failed & Strategyproof",
+      "counterexample_count": 0,
+      "t5_4_violations_count": 1,
+      "arguments": [
+        "arg_1",
+        "arg_2",
+        "arg_3",
+        "arg_4",
+        "arg_5",
+        "arg_6"
+      ],
+      "attacks": [
+        [
+          "arg_1",
+          "arg_5"
+        ],
+        [
+          "arg_6",
+          "arg_5"
+        ]
+      ],
+      "agent_ownership": {
+        "Agent_1": [
+          "arg_1",
+          "arg_5"
+        ],
+        "Agent_2": [
+          "arg_3",
+          "arg_4",
+          "arg_6"
+        ],
+        "Agent_3": [
+          "arg_2"
+        ]
+      }
+    },
+    {
+      "instance_id": 17,
+      "p": 0.15,
+      "num_arguments": 8,
+      "num_attacks": 11,
+      "is_strategyproof": true,
+      "satisfies_theorem_5_4": false,
+      "category": "T5.4 Failed & Strategyproof",
+      "counterexample_count": 0,
+      "t5_4_violations_count": 2,
+      "arguments": [
+        "arg_1",
+        "arg_2",
+        "arg_3",
+        "arg_4",
+        "arg_5",
+        "arg_6",
+        "arg_7",
+        "arg_8"
+      ],
+      "attacks": [
+        [
+          "arg_2",
+          "arg_8"
+        ],
+        [
+          "arg_3",
+          "arg_4"
+        ],
+        [
+          "arg_3",
+          "arg_6"
+        ],
+        [
+          "arg_3",
+          "arg_8"
+        ],
+        [
+          "arg_4",
+          "arg_1"
+        ],
+        [
+          "arg_4",
+          "arg_5"
+        ],
+        [
+          "arg_5",
+          "arg_2"
+        ],
+        [
+          "arg_7",
+          "arg_2"
+        ],
+        [
+          "arg_7",
+          "arg_6"
+        ],
+        [
+          "arg_8",
+          "arg_2"
+        ],
+        [
+          "arg_8",
+          "arg_4"
+        ]
+      ],
+      "agent_ownership": {
+        "Agent_1": [
+          "arg_4",
+          "arg_7"
+        ],
+        "Agent_2": [
+          "arg_2",
+          "arg_3"
+        ],
+        "Agent_3": [
+          "arg_1",
+          "arg_5",
+          "arg_6",
+          "arg_8"
+        ]
+      }
+    },
+    {
+      "instance_id": 18,
+      "p": 0.15,
+      "num_arguments": 7,
+      "num_attacks": 3,
+      "is_strategyproof": true,
+      "satisfies_theorem_5_4": true,
+      "category": "T5.4 Satisfied & Strategyproof",
+      "counterexample_count": 0,
+      "t5_4_violations_count": 0,
+      "arguments": [
+        "arg_1",
+        "arg_2",
+        "arg_3",
+        "arg_4",
+        "arg_5",
+        "arg_6",
+        "arg_7"
+      ],
+      "attacks": [
+        [
+          "arg_1",
+          "arg_3"
+        ],
+        [
+          "arg_1",
+          "arg_7"
+        ],
+        [
+          "arg_6",
+          "arg_2"
+        ]
+      ],
+      "agent_ownership": {
+        "Agent_1": [
+          "arg_5",
+          "arg_7"
+        ],
+        "Agent_2": [
+          "arg_1",
+          "arg_2",
+          "arg_4"
+        ],
+        "Agent_3": [
+          "arg_3",
+          "arg_6"
+        ]
+      }
+    },
+    {
+      "instance_id": 19,
+      "p": 0.15,
+      "num_arguments": 7,
+      "num_attacks": 7,
+      "is_strategyproof": false,
+      "satisfies_theorem_5_4": false,
+      "category": "T5.4 Failed & Not Strategyproof",
+      "counterexample_count": 48,
+      "t5_4_violations_count": 6,
+      "arguments": [
+        "arg_1",
+        "arg_2",
+        "arg_3",
+        "arg_4",
+        "arg_5",
+        "arg_6",
+        "arg_7"
+      ],
+      "attacks": [
+        [
+          "arg_1",
+          "arg_3"
+        ],
+        [
+          "arg_1",
+          "arg_7"
+        ],
+        [
+          "arg_3",
+          "arg_7"
+        ],
+        [
+          "arg_4",
+          "arg_2"
+        ],
+        [
+          "arg_5",
+          "arg_6"
+        ],
+        [
+          "arg_7",
+          "arg_1"
+        ],
+        [
+          "arg_7",
+          "arg_3"
+        ]
+      ],
+      "agent_ownership": {
+        "Agent_1": [
+          "arg_2",
+          "arg_5",
+          "arg_6"
+        ],
+        "Agent_2": [
+          "arg_1",
+          "arg_7"
+        ],
+        "Agent_3": [
+          "arg_3",
+          "arg_4"
+        ]
+      }
+    },
+    {
+      "instance_id": 20,
+      "p": 0.15,
+      "num_arguments": 6,
+      "num_attacks": 5,
+      "is_strategyproof": true,
+      "satisfies_theorem_5_4": false,
+      "category": "T5.4 Failed & Strategyproof",
+      "counterexample_count": 0,
+      "t5_4_violations_count": 1,
+      "arguments": [
+        "arg_1",
+        "arg_2",
+        "arg_3",
+        "arg_4",
+        "arg_5",
+        "arg_6"
+      ],
+      "attacks": [
+        [
+          "arg_1",
+          "arg_5"
+        ],
+        [
+          "arg_2",
+          "arg_1"
+        ],
+        [
+          "arg_3",
+          "arg_6"
+        ],
+        [
+          "arg_4",
+          "arg_5"
+        ],
+        [
+          "arg_5",
+          "arg_4"
+        ]
+      ],
+      "agent_ownership": {
+        "Agent_1": [
+          "arg_2"
+        ],
+        "Agent_2": [
+          "arg_5"
+        ],
+        "Agent_3": [
+          "arg_1",
+          "arg_3",
+          "arg_4",
+          "arg_6"
+        ]
+      }
+    },
+    {
+      "instance_id": 21,
+      "p": 0.15,
+      "num_arguments": 6,
+      "num_attacks": 7,
+      "is_strategyproof": true,
+      "satisfies_theorem_5_4": false,
+      "category": "T5.4 Failed & Strategyproof",
+      "counterexample_count": 0,
+      "t5_4_violations_count": 6,
+      "arguments": [
+        "arg_1",
+        "arg_2",
+        "arg_3",
+        "arg_4",
+        "arg_5",
+        "arg_6"
+      ],
+      "attacks": [
+        [
+          "arg_1",
+          "arg_2"
+        ],
+        [
+          "arg_4",
+          "arg_5"
+        ],
+        [
+          "arg_5",
+          "arg_1"
+        ],
+        [
+          "arg_5",
+          "arg_6"
+        ],
+        [
+          "arg_6",
+          "arg_2"
+        ],
+        [
+          "arg_6",
+          "arg_4"
+        ],
+        [
+          "arg_6",
+          "arg_5"
+        ]
+      ],
+      "agent_ownership": {
+        "Agent_1": [
+          "arg_3",
+          "arg_5"
+        ],
+        "Agent_2": [
+          "arg_6"
+        ],
+        "Agent_3": [
+          "arg_1",
+          "arg_2",
+          "arg_4"
+        ]
+      }
+    },
+    {
+      "instance_id": 22,
+      "p": 0.15,
+      "num_arguments": 8,
+      "num_attacks": 10,
+      "is_strategyproof": true,
+      "satisfies_theorem_5_4": false,
+      "category": "T5.4 Failed & Strategyproof",
+      "counterexample_count": 0,
+      "t5_4_violations_count": 9,
+      "arguments": [
+        "arg_1",
+        "arg_2",
+        "arg_3",
+        "arg_4",
+        "arg_5",
+        "arg_6",
+        "arg_7",
+        "arg_8"
+      ],
+      "attacks": [
+        [
+          "arg_1",
+          "arg_5"
+        ],
+        [
+          "arg_2",
+          "arg_4"
+        ],
+        [
+          "arg_2",
+          "arg_5"
+        ],
+        [
+          "arg_2",
+          "arg_7"
+        ],
+        [
+          "arg_4",
+          "arg_1"
+        ],
+        [
+          "arg_5",
+          "arg_7"
+        ],
+        [
+          "arg_6",
+          "arg_5"
+        ],
+        [
+          "arg_6",
+          "arg_8"
+        ],
+        [
+          "arg_7",
+          "arg_1"
+        ],
+        [
+          "arg_8",
+          "arg_1"
+        ]
+      ],
+      "agent_ownership": {
+        "Agent_1": [
+          "arg_2",
+          "arg_7",
+          "arg_8"
+        ],
+        "Agent_2": [
+          "arg_1",
+          "arg_4",
+          "arg_5"
+        ],
+        "Agent_3": [
+          "arg_3",
+          "arg_6"
+        ]
+      }
+    },
+    {
+      "instance_id": 23,
+      "p": 0.15,
+      "num_arguments": 6,
+      "num_attacks": 4,
+      "is_strategyproof": true,
+      "satisfies_theorem_5_4": false,
+      "category": "T5.4 Failed & Strategyproof",
+      "counterexample_count": 0,
+      "t5_4_violations_count": 2,
+      "arguments": [
+        "arg_1",
+        "arg_2",
+        "arg_3",
+        "arg_4",
+        "arg_5",
+        "arg_6"
+      ],
+      "attacks": [
+        [
+          "arg_2",
+          "arg_5"
+        ],
+        [
+          "arg_4",
+          "arg_2"
+        ],
+        [
+          "arg_5",
+          "arg_1"
+        ],
+        [
+          "arg_5",
+          "arg_3"
+        ]
+      ],
+      "agent_ownership": {
+        "Agent_1": [
+          "arg_1",
+          "arg_2",
+          "arg_5"
+        ],
+        "Agent_2": [
+          "arg_3"
+        ],
+        "Agent_3": [
+          "arg_4",
+          "arg_6"
+        ]
+      }
+    },
+    {
+      "instance_id": 24,
+      "p": 0.15,
+      "num_arguments": 8,
+      "num_attacks": 8,
+      "is_strategyproof": true,
+      "satisfies_theorem_5_4": false,
+      "category": "T5.4 Failed & Strategyproof",
+      "counterexample_count": 0,
+      "t5_4_violations_count": 3,
+      "arguments": [
+        "arg_1",
+        "arg_2",
+        "arg_3",
+        "arg_4",
+        "arg_5",
+        "arg_6",
+        "arg_7",
+        "arg_8"
+      ],
+      "attacks": [
+        [
+          "arg_1",
+          "arg_2"
+        ],
+        [
+          "arg_2",
+          "arg_3"
+        ],
+        [
+          "arg_3",
+          "arg_2"
+        ],
+        [
+          "arg_4",
+          "arg_1"
+        ],
+        [
+          "arg_4",
+          "arg_5"
+        ],
+        [
+          "arg_5",
+          "arg_8"
+        ],
+        [
+          "arg_7",
+          "arg_8"
+        ],
+        [
+          "arg_8",
+          "arg_3"
+        ]
+      ],
+      "agent_ownership": {
+        "Agent_1": [
+          "arg_2",
+          "arg_5",
+          "arg_6",
+          "arg_7"
+        ],
+        "Agent_2": [
+          "arg_3"
+        ],
+        "Agent_3": [
+          "arg_1",
+          "arg_4",
+          "arg_8"
+        ]
+      }
+    },
+    {
+      "instance_id": 25,
+      "p": 0.15,
+      "num_arguments": 6,
+      "num_attacks": 3,
+      "is_strategyproof": true,
+      "satisfies_theorem_5_4": true,
+      "category": "T5.4 Satisfied & Strategyproof",
+      "counterexample_count": 0,
+      "t5_4_violations_count": 0,
+      "arguments": [
+        "arg_1",
+        "arg_2",
+        "arg_3",
+        "arg_4",
+        "arg_5",
+        "arg_6"
+      ],
+      "attacks": [
+        [
+          "arg_1",
+          "arg_6"
+        ],
+        [
+          "arg_5",
+          "arg_4"
+        ],
+        [
+          "arg_6",
+          "arg_1"
+        ]
+      ],
+      "agent_ownership": {
+        "Agent_1": [
+          "arg_3"
+        ],
+        "Agent_2": [
+          "arg_4",
+          "arg_6"
+        ],
+        "Agent_3": [
+          "arg_1",
+          "arg_2",
+          "arg_5"
+        ]
+      }
+    },
+    {
+      "instance_id": 26,
+      "p": 0.15,
+      "num_arguments": 6,
+      "num_attacks": 4,
+      "is_strategyproof": true,
+      "satisfies_theorem_5_4": true,
+      "category": "T5.4 Satisfied & Strategyproof",
+      "counterexample_count": 0,
+      "t5_4_violations_count": 0,
+      "arguments": [
+        "arg_1",
+        "arg_2",
+        "arg_3",
+        "arg_4",
+        "arg_5",
+        "arg_6"
+      ],
+      "attacks": [
+        [
+          "arg_1",
+          "arg_5"
+        ],
+        [
+          "arg_1",
+          "arg_6"
+        ],
+        [
+          "arg_5",
+          "arg_3"
+        ],
+        [
+          "arg_5",
+          "arg_4"
+        ]
+      ],
+      "agent_ownership": {
+        "Agent_1": [
+          "arg_5"
+        ],
+        "Agent_2": [
+          "arg_6"
+        ],
+        "Agent_3": [
+          "arg_1",
+          "arg_2",
+          "arg_3",
+          "arg_4"
+        ]
+      }
+    },
+    {
+      "instance_id": 27,
+      "p": 0.15,
+      "num_arguments": 7,
+      "num_attacks": 6,
+      "is_strategyproof": false,
+      "satisfies_theorem_5_4": false,
+      "category": "T5.4 Failed & Not Strategyproof",
+      "counterexample_count": 50,
+      "t5_4_violations_count": 5,
+      "arguments": [
+        "arg_1",
+        "arg_2",
+        "arg_3",
+        "arg_4",
+        "arg_5",
+        "arg_6",
+        "arg_7"
+      ],
+      "attacks": [
+        [
+          "arg_1",
+          "arg_2"
+        ],
+        [
+          "arg_1",
+          "arg_4"
+        ],
+        [
+          "arg_2",
+          "arg_1"
+        ],
+        [
+          "arg_2",
+          "arg_7"
+        ],
+        [
+          "arg_3",
+          "arg_4"
+        ],
+        [
+          "arg_7",
+          "arg_3"
+        ]
+      ],
+      "agent_ownership": {
+        "Agent_1": [
+          "arg_3",
+          "arg_7"
+        ],
+        "Agent_2": [
+          "arg_1",
+          "arg_2",
+          "arg_4",
+          "arg_5"
+        ],
+        "Agent_3": [
+          "arg_6"
+        ]
+      }
+    },
+    {
+      "instance_id": 28,
+      "p": 0.15,
+      "num_arguments": 8,
+      "num_attacks": 12,
+      "is_strategyproof": true,
+      "satisfies_theorem_5_4": false,
+      "category": "T5.4 Failed & Strategyproof",
+      "counterexample_count": 0,
+      "t5_4_violations_count": 17,
+      "arguments": [
+        "arg_1",
+        "arg_2",
+        "arg_3",
+        "arg_4",
+        "arg_5",
+        "arg_6",
+        "arg_7",
+        "arg_8"
+      ],
+      "attacks": [
+        [
+          "arg_2",
+          "arg_4"
+        ],
+        [
+          "arg_3",
+          "arg_1"
+        ],
+        [
+          "arg_4",
+          "arg_1"
+        ],
+        [
+          "arg_4",
+          "arg_8"
+        ],
+        [
+          "arg_5",
+          "arg_1"
+        ],
+        [
+          "arg_5",
+          "arg_7"
+        ],
+        [
+          "arg_6",
+          "arg_4"
+        ],
+        [
+          "arg_7",
+          "arg_1"
+        ],
+        [
+          "arg_7",
+          "arg_4"
+        ],
+        [
+          "arg_7",
+          "arg_5"
+        ],
+        [
+          "arg_8",
+          "arg_4"
+        ],
+        [
+          "arg_8",
+          "arg_7"
+        ]
+      ],
+      "agent_ownership": {
+        "Agent_1": [
+          "arg_3",
+          "arg_5"
+        ],
+        "Agent_2": [
+          "arg_2"
+        ],
+        "Agent_3": [
+          "arg_1",
+          "arg_4",
+          "arg_6",
+          "arg_7",
+          "arg_8"
+        ]
+      }
+    },
+    {
+      "instance_id": 29,
+      "p": 0.15,
+      "num_arguments": 8,
+      "num_attacks": 9,
+      "is_strategyproof": false,
+      "satisfies_theorem_5_4": false,
+      "category": "T5.4 Failed & Not Strategyproof",
+      "counterexample_count": 96,
+      "t5_4_violations_count": 14,
+      "arguments": [
+        "arg_1",
+        "arg_2",
+        "arg_3",
+        "arg_4",
+        "arg_5",
+        "arg_6",
+        "arg_7",
+        "arg_8"
+      ],
+      "attacks": [
+        [
+          "arg_1",
+          "arg_3"
+        ],
+        [
+          "arg_2",
+          "arg_1"
+        ],
+        [
+          "arg_2",
+          "arg_4"
+        ],
+        [
+          "arg_3",
+          "arg_7"
+        ],
+        [
+          "arg_4",
+          "arg_8"
+        ],
+        [
+          "arg_6",
+          "arg_2"
+        ],
+        [
+          "arg_6",
+          "arg_7"
+        ],
+        [
+          "arg_7",
+          "arg_1"
+        ],
+        [
+          "arg_8",
+          "arg_6"
+        ]
+      ],
+      "agent_ownership": {
+        "Agent_1": [
+          "arg_5"
+        ],
+        "Agent_2": [
+          "arg_2",
+          "arg_4",
+          "arg_7",
+          "arg_8"
+        ],
+        "Agent_3": [
+          "arg_1",
+          "arg_3",
+          "arg_6"
+        ]
+      }
+    },
+    {
+      "instance_id": 30,
+      "p": 0.15,
+      "num_arguments": 6,
+      "num_attacks": 6,
+      "is_strategyproof": false,
+      "satisfies_theorem_5_4": false,
+      "category": "T5.4 Failed & Not Strategyproof",
+      "counterexample_count": 12,
+      "t5_4_violations_count": 10,
+      "arguments": [
+        "arg_1",
+        "arg_2",
+        "arg_3",
+        "arg_4",
+        "arg_5",
+        "arg_6"
+      ],
+      "attacks": [
+        [
+          "arg_1",
+          "arg_3"
+        ],
+        [
+          "arg_2",
+          "arg_3"
+        ],
+        [
+          "arg_3",
+          "arg_5"
+        ],
+        [
+          "arg_5",
+          "arg_1"
+        ],
+        [
+          "arg_6",
+          "arg_2"
+        ],
+        [
+          "arg_6",
+          "arg_5"
+        ]
+      ],
+      "agent_ownership": {
+        "Agent_1": [
+          "arg_2",
+          "arg_6"
+        ],
+        "Agent_2": [
+          "arg_4"
+        ],
+        "Agent_3": [
+          "arg_1",
+          "arg_3",
+          "arg_5"
+        ]
+      }
+    },
+    {
+      "instance_id": 31,
+      "p": 0.15,
+      "num_arguments": 6,
+      "num_attacks": 3,
+      "is_strategyproof": false,
+      "satisfies_theorem_5_4": false,
+      "category": "T5.4 Failed & Not Strategyproof",
+      "counterexample_count": 4,
+      "t5_4_violations_count": 2,
+      "arguments": [
+        "arg_1",
+        "arg_2",
+        "arg_3",
+        "arg_4",
+        "arg_5",
+        "arg_6"
+      ],
+      "attacks": [
+        [
+          "arg_2",
+          "arg_6"
+        ],
+        [
+          "arg_5",
+          "arg_2"
+        ],
+        [
+          "arg_6",
+          "arg_2"
+        ]
+      ],
+      "agent_ownership": {
+        "Agent_1": [
+          "arg_4"
+        ],
+        "Agent_2": [
+          "arg_5"
+        ],
+        "Agent_3": [
+          "arg_1",
+          "arg_2",
+          "arg_3",
+          "arg_6"
+        ]
+      }
+    },
+    {
+      "instance_id": 32,
+      "p": 0.15,
+      "num_arguments": 8,
+      "num_attacks": 8,
+      "is_strategyproof": true,
+      "satisfies_theorem_5_4": false,
+      "category": "T5.4 Failed & Strategyproof",
+      "counterexample_count": 0,
+      "t5_4_violations_count": 3,
+      "arguments": [
+        "arg_1",
+        "arg_2",
+        "arg_3",
+        "arg_4",
+        "arg_5",
+        "arg_6",
+        "arg_7",
+        "arg_8"
+      ],
+      "attacks": [
+        [
+          "arg_2",
+          "arg_6"
+        ],
+        [
+          "arg_2",
+          "arg_8"
+        ],
+        [
+          "arg_3",
+          "arg_8"
+        ],
+        [
+          "arg_4",
+          "arg_2"
+        ],
+        [
+          "arg_4",
+          "arg_6"
+        ],
+        [
+          "arg_5",
+          "arg_3"
+        ],
+        [
+          "arg_7",
+          "arg_1"
+        ],
+        [
+          "arg_7",
+          "arg_8"
+        ]
+      ],
+      "agent_ownership": {
+        "Agent_1": [
+          "arg_4",
+          "arg_6"
+        ],
+        "Agent_2": [
+          "arg_2",
+          "arg_7"
+        ],
+        "Agent_3": [
+          "arg_1",
+          "arg_3",
+          "arg_5",
+          "arg_8"
+        ]
+      }
+    },
+    {
+      "instance_id": 33,
+      "p": 0.15,
+      "num_arguments": 8,
+      "num_attacks": 11,
+      "is_strategyproof": true,
+      "satisfies_theorem_5_4": false,
+      "category": "T5.4 Failed & Strategyproof",
+      "counterexample_count": 0,
+      "t5_4_violations_count": 5,
+      "arguments": [
+        "arg_1",
+        "arg_2",
+        "arg_3",
+        "arg_4",
+        "arg_5",
+        "arg_6",
+        "arg_7",
+        "arg_8"
+      ],
+      "attacks": [
+        [
+          "arg_1",
+          "arg_2"
+        ],
+        [
+          "arg_3",
+          "arg_1"
+        ],
+        [
+          "arg_4",
+          "arg_2"
+        ],
+        [
+          "arg_4",
+          "arg_5"
+        ],
+        [
+          "arg_4",
+          "arg_7"
+        ],
+        [
+          "arg_4",
+          "arg_8"
+        ],
+        [
+          "arg_7",
+          "arg_1"
+        ],
+        [
+          "arg_7",
+          "arg_6"
+        ],
+        [
+          "arg_8",
+          "arg_5"
+        ],
+        [
+          "arg_8",
+          "arg_6"
+        ],
+        [
+          "arg_8",
+          "arg_7"
+        ]
+      ],
+      "agent_ownership": {
+        "Agent_1": [
+          "arg_6",
+          "arg_7",
+          "arg_8"
+        ],
+        "Agent_2": [
+          "arg_2",
+          "arg_5"
+        ],
+        "Agent_3": [
+          "arg_1",
+          "arg_3",
+          "arg_4"
+        ]
+      }
+    },
+    {
+      "instance_id": 34,
+      "p": 0.15,
+      "num_arguments": 8,
+      "num_attacks": 10,
+      "is_strategyproof": false,
+      "satisfies_theorem_5_4": false,
+      "category": "T5.4 Failed & Not Strategyproof",
+      "counterexample_count": 8,
+      "t5_4_violations_count": 4,
+      "arguments": [
+        "arg_1",
+        "arg_2",
+        "arg_3",
+        "arg_4",
+        "arg_5",
+        "arg_6",
+        "arg_7",
+        "arg_8"
+      ],
+      "attacks": [
+        [
+          "arg_2",
+          "arg_1"
+        ],
+        [
+          "arg_2",
+          "arg_3"
+        ],
+        [
+          "arg_2",
+          "arg_8"
+        ],
+        [
+          "arg_3",
+          "arg_4"
+        ],
+        [
+          "arg_3",
+          "arg_5"
+        ],
+        [
+          "arg_4",
+          "arg_1"
+        ],
+        [
+          "arg_4",
+          "arg_3"
+        ],
+        [
+          "arg_6",
+          "arg_1"
+        ],
+        [
+          "arg_6",
+          "arg_3"
+        ],
+        [
+          "arg_8",
+          "arg_1"
+        ]
+      ],
+      "agent_ownership": {
+        "Agent_1": [
+          "arg_3",
+          "arg_5"
+        ],
+        "Agent_2": [
+          "arg_1",
+          "arg_2",
+          "arg_7",
+          "arg_8"
+        ],
+        "Agent_3": [
+          "arg_4",
+          "arg_6"
+        ]
+      }
+    },
+    {
+      "instance_id": 35,
+      "p": 0.15,
+      "num_arguments": 6,
+      "num_attacks": 2,
+      "is_strategyproof": true,
+      "satisfies_theorem_5_4": true,
+      "category": "T5.4 Satisfied & Strategyproof",
+      "counterexample_count": 0,
+      "t5_4_violations_count": 0,
+      "arguments": [
+        "arg_1",
+        "arg_2",
+        "arg_3",
+        "arg_4",
+        "arg_5",
+        "arg_6"
+      ],
+      "attacks": [
+        [
+          "arg_2",
+          "arg_1"
+        ],
+        [
+          "arg_2",
+          "arg_3"
+        ]
+      ],
+      "agent_ownership": {
+        "Agent_1": [
+          "arg_1",
+          "arg_4"
+        ],
+        "Agent_2": [
+          "arg_2",
+          "arg_6"
+        ],
+        "Agent_3": [
+          "arg_3",
+          "arg_5"
+        ]
+      }
+    },
+    {
+      "instance_id": 36,
+      "p": 0.15,
+      "num_arguments": 8,
+      "num_attacks": 10,
+      "is_strategyproof": false,
+      "satisfies_theorem_5_4": false,
+      "category": "T5.4 Failed & Not Strategyproof",
+      "counterexample_count": 30,
+      "t5_4_violations_count": 23,
+      "arguments": [
+        "arg_1",
+        "arg_2",
+        "arg_3",
+        "arg_4",
+        "arg_5",
+        "arg_6",
+        "arg_7",
+        "arg_8"
+      ],
+      "attacks": [
+        [
+          "arg_1",
+          "arg_7"
+        ],
+        [
+          "arg_1",
+          "arg_8"
+        ],
+        [
+          "arg_2",
+          "arg_3"
+        ],
+        [
+          "arg_3",
+          "arg_5"
+        ],
+        [
+          "arg_3",
+          "arg_8"
+        ],
+        [
+          "arg_4",
+          "arg_5"
+        ],
+        [
+          "arg_5",
+          "arg_1"
+        ],
+        [
+          "arg_6",
+          "arg_5"
+        ],
+        [
+          "arg_7",
+          "arg_4"
+        ],
+        [
+          "arg_8",
+          "arg_2"
+        ]
+      ],
+      "agent_ownership": {
+        "Agent_1": [
+          "arg_4"
+        ],
+        "Agent_2": [
+          "arg_5",
+          "arg_6",
+          "arg_8"
+        ],
+        "Agent_3": [
+          "arg_1",
+          "arg_2",
+          "arg_3",
+          "arg_7"
+        ]
+      }
+    },
+    {
+      "instance_id": 37,
+      "p": 0.15,
+      "num_arguments": 6,
+      "num_attacks": 4,
+      "is_strategyproof": true,
+      "satisfies_theorem_5_4": true,
+      "category": "T5.4 Satisfied & Strategyproof",
+      "counterexample_count": 0,
+      "t5_4_violations_count": 0,
+      "arguments": [
+        "arg_1",
+        "arg_2",
+        "arg_3",
+        "arg_4",
+        "arg_5",
+        "arg_6"
+      ],
+      "attacks": [
+        [
+          "arg_1",
+          "arg_5"
+        ],
+        [
+          "arg_4",
+          "arg_3"
+        ],
+        [
+          "arg_5",
+          "arg_1"
+        ],
+        [
+          "arg_6",
+          "arg_5"
+        ]
+      ],
+      "agent_ownership": {
+        "Agent_1": [
+          "arg_4",
+          "arg_6"
+        ],
+        "Agent_2": [
+          "arg_2",
+          "arg_3",
+          "arg_5"
+        ],
+        "Agent_3": [
+          "arg_1"
+        ]
+      }
+    },
+    {
+      "instance_id": 38,
+      "p": 0.15,
+      "num_arguments": 7,
+      "num_attacks": 3,
+      "is_strategyproof": true,
+      "satisfies_theorem_5_4": true,
+      "category": "T5.4 Satisfied & Strategyproof",
+      "counterexample_count": 0,
+      "t5_4_violations_count": 0,
+      "arguments": [
+        "arg_1",
+        "arg_2",
+        "arg_3",
+        "arg_4",
+        "arg_5",
+        "arg_6",
+        "arg_7"
+      ],
+      "attacks": [
+        [
+          "arg_5",
+          "arg_4"
+        ],
+        [
+          "arg_7",
+          "arg_5"
+        ],
+        [
+          "arg_7",
+          "arg_6"
+        ]
+      ],
+      "agent_ownership": {
+        "Agent_1": [
+          "arg_4",
+          "arg_6"
+        ],
+        "Agent_2": [
+          "arg_2",
+          "arg_5"
+        ],
+        "Agent_3": [
+          "arg_1",
+          "arg_3",
+          "arg_7"
+        ]
+      }
+    },
+    {
+      "instance_id": 39,
+      "p": 0.15,
+      "num_arguments": 7,
+      "num_attacks": 8,
+      "is_strategyproof": false,
+      "satisfies_theorem_5_4": false,
+      "category": "T5.4 Failed & Not Strategyproof",
+      "counterexample_count": 40,
+      "t5_4_violations_count": 5,
+      "arguments": [
+        "arg_1",
+        "arg_2",
+        "arg_3",
+        "arg_4",
+        "arg_5",
+        "arg_6",
+        "arg_7"
+      ],
+      "attacks": [
+        [
+          "arg_1",
+          "arg_3"
+        ],
+        [
+          "arg_1",
+          "arg_5"
+        ],
+        [
+          "arg_2",
+          "arg_3"
+        ],
+        [
+          "arg_3",
+          "arg_2"
+        ],
+        [
+          "arg_4",
+          "arg_6"
+        ],
+        [
+          "arg_5",
+          "arg_2"
+        ],
+        [
+          "arg_5",
+          "arg_4"
+        ],
+        [
+          "arg_6",
+          "arg_1"
+        ]
+      ],
+      "agent_ownership": {
+        "Agent_1": [
+          "arg_1",
+          "arg_2",
+          "arg_4",
+          "arg_6"
+        ],
+        "Agent_2": [
+          "arg_7"
+        ],
+        "Agent_3": [
+          "arg_3",
+          "arg_5"
+        ]
+      }
+    },
+    {
+      "instance_id": 40,
+      "p": 0.15,
+      "num_arguments": 6,
+      "num_attacks": 6,
+      "is_strategyproof": false,
+      "satisfies_theorem_5_4": false,
+      "category": "T5.4 Failed & Not Strategyproof",
+      "counterexample_count": 4,
+      "t5_4_violations_count": 1,
+      "arguments": [
+        "arg_1",
+        "arg_2",
+        "arg_3",
+        "arg_4",
+        "arg_5",
+        "arg_6"
+      ],
+      "attacks": [
+        [
+          "arg_1",
+          "arg_2"
+        ],
+        [
+          "arg_1",
+          "arg_3"
+        ],
+        [
+          "arg_1",
+          "arg_6"
+        ],
+        [
+          "arg_3",
+          "arg_1"
+        ],
+        [
+          "arg_5",
+          "arg_1"
+        ],
+        [
+          "arg_5",
+          "arg_6"
+        ]
+      ],
+      "agent_ownership": {
+        "Agent_1": [
+          "arg_5"
+        ],
+        "Agent_2": [
+          "arg_1",
+          "arg_2"
+        ],
+        "Agent_3": [
+          "arg_3",
+          "arg_4",
+          "arg_6"
+        ]
+      }
+    },
+    {
+      "instance_id": 41,
+      "p": 0.15,
+      "num_arguments": 7,
+      "num_attacks": 6,
+      "is_strategyproof": false,
+      "satisfies_theorem_5_4": false,
+      "category": "T5.4 Failed & Not Strategyproof",
+      "counterexample_count": 24,
+      "t5_4_violations_count": 4,
+      "arguments": [
+        "arg_1",
+        "arg_2",
+        "arg_3",
+        "arg_4",
+        "arg_5",
+        "arg_6",
+        "arg_7"
+      ],
+      "attacks": [
+        [
+          "arg_2",
+          "arg_3"
+        ],
+        [
+          "arg_2",
+          "arg_5"
+        ],
+        [
+          "arg_3",
+          "arg_6"
+        ],
+        [
+          "arg_4",
+          "arg_5"
+        ],
+        [
+          "arg_5",
+          "arg_1"
+        ],
+        [
+          "arg_5",
+          "arg_2"
+        ]
+      ],
+      "agent_ownership": {
+        "Agent_1": [
+          "arg_1"
+        ],
+        "Agent_2": [
+          "arg_3",
+          "arg_4",
+          "arg_7"
+        ],
+        "Agent_3": [
+          "arg_2",
+          "arg_5",
+          "arg_6"
+        ]
+      }
+    },
+    {
+      "instance_id": 42,
+      "p": 0.15,
+      "num_arguments": 7,
+      "num_attacks": 4,
+      "is_strategyproof": true,
+      "satisfies_theorem_5_4": false,
+      "category": "T5.4 Failed & Strategyproof",
+      "counterexample_count": 0,
+      "t5_4_violations_count": 3,
+      "arguments": [
+        "arg_1",
+        "arg_2",
+        "arg_3",
+        "arg_4",
+        "arg_5",
+        "arg_6",
+        "arg_7"
+      ],
+      "attacks": [
+        [
+          "arg_1",
+          "arg_5"
+        ],
+        [
+          "arg_3",
+          "arg_1"
+        ],
+        [
+          "arg_7",
+          "arg_2"
+        ],
+        [
+          "arg_7",
+          "arg_3"
+        ]
+      ],
+      "agent_ownership": {
+        "Agent_1": [
+          "arg_1",
+          "arg_2",
+          "arg_5",
+          "arg_7"
+        ],
+        "Agent_2": [
+          "arg_6"
+        ],
+        "Agent_3": [
+          "arg_3",
+          "arg_4"
+        ]
+      }
+    },
+    {
+      "instance_id": 43,
+      "p": 0.15,
+      "num_arguments": 6,
+      "num_attacks": 6,
+      "is_strategyproof": true,
+      "satisfies_theorem_5_4": false,
+      "category": "T5.4 Failed & Strategyproof",
+      "counterexample_count": 0,
+      "t5_4_violations_count": 1,
+      "arguments": [
+        "arg_1",
+        "arg_2",
+        "arg_3",
+        "arg_4",
+        "arg_5",
+        "arg_6"
+      ],
+      "attacks": [
+        [
+          "arg_2",
+          "arg_4"
+        ],
+        [
+          "arg_2",
+          "arg_6"
+        ],
+        [
+          "arg_3",
+          "arg_5"
+        ],
+        [
+          "arg_4",
+          "arg_5"
+        ],
+        [
+          "arg_4",
+          "arg_6"
+        ],
+        [
+          "arg_5",
+          "arg_1"
+        ]
+      ],
+      "agent_ownership": {
+        "Agent_1": [
+          "arg_1",
+          "arg_6"
+        ],
+        "Agent_2": [
+          "arg_2",
+          "arg_3",
+          "arg_4"
+        ],
+        "Agent_3": [
+          "arg_5"
+        ]
+      }
+    },
+    {
+      "instance_id": 44,
+      "p": 0.15,
+      "num_arguments": 7,
+      "num_attacks": 9,
+      "is_strategyproof": false,
+      "satisfies_theorem_5_4": false,
+      "category": "T5.4 Failed & Not Strategyproof",
+      "counterexample_count": 16,
+      "t5_4_violations_count": 8,
+      "arguments": [
+        "arg_1",
+        "arg_2",
+        "arg_3",
+        "arg_4",
+        "arg_5",
+        "arg_6",
+        "arg_7"
+      ],
+      "attacks": [
+        [
+          "arg_1",
+          "arg_3"
+        ],
+        [
+          "arg_1",
+          "arg_4"
+        ],
+        [
+          "arg_2",
+          "arg_5"
+        ],
+        [
+          "arg_2",
+          "arg_7"
+        ],
+        [
+          "arg_3",
+          "arg_6"
+        ],
+        [
+          "arg_3",
+          "arg_7"
+        ],
+        [
+          "arg_4",
+          "arg_5"
+        ],
+        [
+          "arg_5",
+          "arg_7"
+        ],
+        [
+          "arg_7",
+          "arg_2"
+        ]
+      ],
+      "agent_ownership": {
+        "Agent_1": [
+          "arg_3"
+        ],
+        "Agent_2": [
+          "arg_1",
+          "arg_5"
+        ],
+        "Agent_3": [
+          "arg_2",
+          "arg_4",
+          "arg_6",
+          "arg_7"
+        ]
+      }
+    },
+    {
+      "instance_id": 45,
+      "p": 0.15,
+      "num_arguments": 7,
+      "num_attacks": 9,
+      "is_strategyproof": true,
+      "satisfies_theorem_5_4": false,
+      "category": "T5.4 Failed & Strategyproof",
+      "counterexample_count": 0,
+      "t5_4_violations_count": 11,
+      "arguments": [
+        "arg_1",
+        "arg_2",
+        "arg_3",
+        "arg_4",
+        "arg_5",
+        "arg_6",
+        "arg_7"
+      ],
+      "attacks": [
+        [
+          "arg_1",
+          "arg_2"
+        ],
+        [
+          "arg_2",
+          "arg_5"
+        ],
+        [
+          "arg_3",
+          "arg_2"
+        ],
+        [
+          "arg_4",
+          "arg_2"
+        ],
+        [
+          "arg_4",
+          "arg_3"
+        ],
+        [
+          "arg_5",
+          "arg_1"
+        ],
+        [
+          "arg_5",
+          "arg_7"
+        ],
+        [
+          "arg_6",
+          "arg_2"
+        ],
+        [
+          "arg_7",
+          "arg_2"
+        ]
+      ],
+      "agent_ownership": {
+        "Agent_1": [
+          "arg_2",
+          "arg_3"
+        ],
+        "Agent_2": [
+          "arg_4",
+          "arg_5",
+          "arg_6",
+          "arg_7"
+        ],
+        "Agent_3": [
+          "arg_1"
+        ]
+      }
+    },
+    {
+      "instance_id": 46,
+      "p": 0.15,
+      "num_arguments": 6,
+      "num_attacks": 2,
+      "is_strategyproof": true,
+      "satisfies_theorem_5_4": false,
+      "category": "T5.4 Failed & Strategyproof",
+      "counterexample_count": 0,
+      "t5_4_violations_count": 1,
+      "arguments": [
+        "arg_1",
+        "arg_2",
+        "arg_3",
+        "arg_4",
+        "arg_5",
+        "arg_6"
+      ],
+      "attacks": [
+        [
+          "arg_3",
+          "arg_1"
+        ],
+        [
+          "arg_3",
+          "arg_2"
+        ]
+      ],
+      "agent_ownership": {
+        "Agent_1": [
+          "arg_1",
+          "arg_5"
+        ],
+        "Agent_2": [
+          "arg_2",
+          "arg_3",
+          "arg_4"
+        ],
+        "Agent_3": [
+          "arg_6"
+        ]
+      }
+    },
+    {
+      "instance_id": 47,
+      "p": 0.15,
+      "num_arguments": 8,
+      "num_attacks": 7,
+      "is_strategyproof": true,
+      "satisfies_theorem_5_4": false,
+      "category": "T5.4 Failed & Strategyproof",
+      "counterexample_count": 0,
+      "t5_4_violations_count": 5,
+      "arguments": [
+        "arg_1",
+        "arg_2",
+        "arg_3",
+        "arg_4",
+        "arg_5",
+        "arg_6",
+        "arg_7",
+        "arg_8"
+      ],
+      "attacks": [
+        [
+          "arg_1",
+          "arg_6"
+        ],
+        [
+          "arg_2",
+          "arg_5"
+        ],
+        [
+          "arg_3",
+          "arg_1"
+        ],
+        [
+          "arg_4",
+          "arg_8"
+        ],
+        [
+          "arg_5",
+          "arg_7"
+        ],
+        [
+          "arg_7",
+          "arg_3"
+        ],
+        [
+          "arg_7",
+          "arg_4"
+        ]
+      ],
+      "agent_ownership": {
+        "Agent_1": [
+          "arg_2",
+          "arg_3"
+        ],
+        "Agent_2": [
+          "arg_1",
+          "arg_4",
+          "arg_5",
+          "arg_8"
+        ],
+        "Agent_3": [
+          "arg_6",
+          "arg_7"
+        ]
+      }
+    },
+    {
+      "instance_id": 48,
+      "p": 0.15,
+      "num_arguments": 7,
+      "num_attacks": 7,
+      "is_strategyproof": true,
+      "satisfies_theorem_5_4": false,
+      "category": "T5.4 Failed & Strategyproof",
+      "counterexample_count": 0,
+      "t5_4_violations_count": 3,
+      "arguments": [
+        "arg_1",
+        "arg_2",
+        "arg_3",
+        "arg_4",
+        "arg_5",
+        "arg_6",
+        "arg_7"
+      ],
+      "attacks": [
+        [
+          "arg_1",
+          "arg_5"
+        ],
+        [
+          "arg_2",
+          "arg_1"
+        ],
+        [
+          "arg_2",
+          "arg_3"
+        ],
+        [
+          "arg_2",
+          "arg_5"
+        ],
+        [
+          "arg_2",
+          "arg_7"
+        ],
+        [
+          "arg_5",
+          "arg_7"
+        ],
+        [
+          "arg_7",
+          "arg_4"
+        ]
+      ],
+      "agent_ownership": {
+        "Agent_1": [
+          "arg_1",
+          "arg_5"
+        ],
+        "Agent_2": [
+          "arg_2",
+          "arg_3",
+          "arg_6"
+        ],
+        "Agent_3": [
+          "arg_4",
+          "arg_7"
+        ]
+      }
+    },
+    {
+      "instance_id": 49,
+      "p": 0.15,
+      "num_arguments": 7,
+      "num_attacks": 10,
+      "is_strategyproof": false,
+      "satisfies_theorem_5_4": false,
+      "category": "T5.4 Failed & Not Strategyproof",
+      "counterexample_count": 6,
+      "t5_4_violations_count": 10,
+      "arguments": [
+        "arg_1",
+        "arg_2",
+        "arg_3",
+        "arg_4",
+        "arg_5",
+        "arg_6",
+        "arg_7"
+      ],
+      "attacks": [
+        [
+          "arg_1",
+          "arg_7"
+        ],
+        [
+          "arg_2",
+          "arg_1"
+        ],
+        [
+          "arg_2",
+          "arg_3"
+        ],
+        [
+          "arg_3",
+          "arg_2"
+        ],
+        [
+          "arg_4",
+          "arg_6"
+        ],
+        [
+          "arg_5",
+          "arg_2"
+        ],
+        [
+          "arg_5",
+          "arg_4"
+        ],
+        [
+          "arg_5",
+          "arg_6"
+        ],
+        [
+          "arg_7",
+          "arg_2"
+        ],
+        [
+          "arg_7",
+          "arg_3"
+        ]
+      ],
+      "agent_ownership": {
+        "Agent_1": [
+          "arg_1",
+          "arg_3"
+        ],
+        "Agent_2": [
+          "arg_7"
+        ],
+        "Agent_3": [
+          "arg_2",
+          "arg_4",
+          "arg_5",
+          "arg_6"
+        ]
+      }
+    },
+    {
+      "instance_id": 50,
+      "p": 0.15,
+      "num_arguments": 6,
+      "num_attacks": 3,
+      "is_strategyproof": true,
+      "satisfies_theorem_5_4": true,
+      "category": "T5.4 Satisfied & Strategyproof",
+      "counterexample_count": 0,
+      "t5_4_violations_count": 0,
+      "arguments": [
+        "arg_1",
+        "arg_2",
+        "arg_3",
+        "arg_4",
+        "arg_5",
+        "arg_6"
+      ],
+      "attacks": [
+        [
+          "arg_3",
+          "arg_5"
+        ],
+        [
+          "arg_4",
+          "arg_2"
+        ],
+        [
+          "arg_4",
+          "arg_5"
+        ]
+      ],
+      "agent_ownership": {
+        "Agent_1": [
+          "arg_2"
+        ],
+        "Agent_2": [
+          "arg_1",
+          "arg_5",
+          "arg_6"
+        ],
+        "Agent_3": [
+          "arg_3",
+          "arg_4"
+        ]
+      }
+    },
+    {
+      "instance_id": 51,
+      "p": 0.15,
+      "num_arguments": 7,
+      "num_attacks": 7,
+      "is_strategyproof": true,
+      "satisfies_theorem_5_4": false,
+      "category": "T5.4 Failed & Strategyproof",
+      "counterexample_count": 0,
+      "t5_4_violations_count": 3,
+      "arguments": [
+        "arg_1",
+        "arg_2",
+        "arg_3",
+        "arg_4",
+        "arg_5",
+        "arg_6",
+        "arg_7"
+      ],
+      "attacks": [
+        [
+          "arg_1",
+          "arg_7"
+        ],
+        [
+          "arg_2",
+          "arg_4"
+        ],
+        [
+          "arg_3",
+          "arg_1"
+        ],
+        [
+          "arg_3",
+          "arg_2"
+        ],
+        [
+          "arg_4",
+          "arg_1"
+        ],
+        [
+          "arg_4",
+          "arg_6"
+        ],
+        [
+          "arg_6",
+          "arg_5"
+        ]
+      ],
+      "agent_ownership": {
+        "Agent_1": [
+          "arg_1",
+          "arg_7"
+        ],
+        "Agent_2": [
+          "arg_3",
+          "arg_5"
+        ],
+        "Agent_3": [
+          "arg_2",
+          "arg_4",
+          "arg_6"
+        ]
+      }
+    },
+    {
+      "instance_id": 52,
+      "p": 0.15,
+      "num_arguments": 8,
+      "num_attacks": 13,
+      "is_strategyproof": false,
+      "satisfies_theorem_5_4": false,
+      "category": "T5.4 Failed & Not Strategyproof",
+      "counterexample_count": 4,
+      "t5_4_violations_count": 32,
+      "arguments": [
+        "arg_1",
+        "arg_2",
+        "arg_3",
+        "arg_4",
+        "arg_5",
+        "arg_6",
+        "arg_7",
+        "arg_8"
+      ],
+      "attacks": [
+        [
+          "arg_1",
+          "arg_6"
+        ],
+        [
+          "arg_2",
+          "arg_1"
+        ],
+        [
+          "arg_3",
+          "arg_7"
+        ],
+        [
+          "arg_4",
+          "arg_1"
+        ],
+        [
+          "arg_4",
+          "arg_5"
+        ],
+        [
+          "arg_5",
+          "arg_2"
+        ],
+        [
+          "arg_5",
+          "arg_3"
+        ],
+        [
+          "arg_5",
+          "arg_6"
+        ],
+        [
+          "arg_6",
+          "arg_2"
+        ],
+        [
+          "arg_6",
+          "arg_4"
+        ],
+        [
+          "arg_7",
+          "arg_2"
+        ],
+        [
+          "arg_7",
+          "arg_4"
+        ],
+        [
+          "arg_8",
+          "arg_5"
+        ]
+      ],
+      "agent_ownership": {
+        "Agent_1": [
+          "arg_1",
+          "arg_2",
+          "arg_3",
+          "arg_4",
+          "arg_5",
+          "arg_8"
+        ],
+        "Agent_2": [
+          "arg_6"
+        ],
+        "Agent_3": [
+          "arg_7"
+        ]
+      }
+    },
+    {
+      "instance_id": 53,
+      "p": 0.15,
+      "num_arguments": 8,
+      "num_attacks": 7,
+      "is_strategyproof": false,
+      "satisfies_theorem_5_4": false,
+      "category": "T5.4 Failed & Not Strategyproof",
+      "counterexample_count": 64,
+      "t5_4_violations_count": 4,
+      "arguments": [
+        "arg_1",
+        "arg_2",
+        "arg_3",
+        "arg_4",
+        "arg_5",
+        "arg_6",
+        "arg_7",
+        "arg_8"
+      ],
+      "attacks": [
+        [
+          "arg_2",
+          "arg_6"
+        ],
+        [
+          "arg_4",
+          "arg_6"
+        ],
+        [
+          "arg_4",
+          "arg_8"
+        ],
+        [
+          "arg_6",
+          "arg_3"
+        ],
+        [
+          "arg_6",
+          "arg_5"
+        ],
+        [
+          "arg_8",
+          "arg_4"
+        ],
+        [
+          "arg_8",
+          "arg_5"
+        ]
+      ],
+      "agent_ownership": {
+        "Agent_1": [
+          "arg_3",
+          "arg_4",
+          "arg_5",
+          "arg_7",
+          "arg_8"
+        ],
+        "Agent_2": [
+          "arg_6"
+        ],
+        "Agent_3": [
+          "arg_1",
+          "arg_2"
+        ]
+      }
+    },
+    {
+      "instance_id": 54,
+      "p": 0.15,
+      "num_arguments": 7,
+      "num_attacks": 11,
+      "is_strategyproof": false,
+      "satisfies_theorem_5_4": false,
+      "category": "T5.4 Failed & Not Strategyproof",
+      "counterexample_count": 50,
+      "t5_4_violations_count": 13,
+      "arguments": [
+        "arg_1",
+        "arg_2",
+        "arg_3",
+        "arg_4",
+        "arg_5",
+        "arg_6",
+        "arg_7"
+      ],
+      "attacks": [
+        [
+          "arg_1",
+          "arg_2"
+        ],
+        [
+          "arg_1",
+          "arg_4"
+        ],
+        [
+          "arg_2",
+          "arg_1"
+        ],
+        [
+          "arg_2",
+          "arg_3"
+        ],
+        [
+          "arg_2",
+          "arg_4"
+        ],
+        [
+          "arg_4",
+          "arg_1"
+        ],
+        [
+          "arg_5",
+          "arg_6"
+        ],
+        [
+          "arg_6",
+          "arg_7"
+        ],
+        [
+          "arg_7",
+          "arg_2"
+        ],
+        [
+          "arg_7",
+          "arg_4"
+        ],
+        [
+          "arg_7",
+          "arg_5"
+        ]
+      ],
+      "agent_ownership": {
+        "Agent_1": [
+          "arg_3",
+          "arg_4"
+        ],
+        "Agent_2": [
+          "arg_1",
+          "arg_2",
+          "arg_6"
+        ],
+        "Agent_3": [
+          "arg_5",
+          "arg_7"
+        ]
+      }
+    },
+    {
+      "instance_id": 55,
+      "p": 0.15,
+      "num_arguments": 7,
+      "num_attacks": 6,
+      "is_strategyproof": true,
+      "satisfies_theorem_5_4": true,
+      "category": "T5.4 Satisfied & Strategyproof",
+      "counterexample_count": 0,
+      "t5_4_violations_count": 0,
+      "arguments": [
+        "arg_1",
+        "arg_2",
+        "arg_3",
+        "arg_4",
+        "arg_5",
+        "arg_6",
+        "arg_7"
+      ],
+      "attacks": [
+        [
+          "arg_1",
+          "arg_4"
+        ],
+        [
+          "arg_1",
+          "arg_6"
+        ],
+        [
+          "arg_2",
+          "arg_3"
+        ],
+        [
+          "arg_3",
+          "arg_2"
+        ],
+        [
+          "arg_5",
+          "arg_7"
+        ],
+        [
+          "arg_6",
+          "arg_4"
+        ]
+      ],
+      "agent_ownership": {
+        "Agent_1": [
+          "arg_6"
+        ],
+        "Agent_2": [
+          "arg_1",
+          "arg_3",
+          "arg_5"
+        ],
+        "Agent_3": [
+          "arg_2",
+          "arg_4",
+          "arg_7"
+        ]
+      }
+    },
+    {
+      "instance_id": 56,
+      "p": 0.15,
+      "num_arguments": 7,
+      "num_attacks": 8,
+      "is_strategyproof": true,
+      "satisfies_theorem_5_4": false,
+      "category": "T5.4 Failed & Strategyproof",
+      "counterexample_count": 0,
+      "t5_4_violations_count": 7,
+      "arguments": [
+        "arg_1",
+        "arg_2",
+        "arg_3",
+        "arg_4",
+        "arg_5",
+        "arg_6",
+        "arg_7"
+      ],
+      "attacks": [
+        [
+          "arg_1",
+          "arg_3"
+        ],
+        [
+          "arg_1",
+          "arg_4"
+        ],
+        [
+          "arg_1",
+          "arg_5"
+        ],
+        [
+          "arg_1",
+          "arg_7"
+        ],
+        [
+          "arg_3",
+          "arg_7"
+        ],
+        [
+          "arg_6",
+          "arg_1"
+        ],
+        [
+          "arg_6",
+          "arg_7"
+        ],
+        [
+          "arg_7",
+          "arg_3"
+        ]
+      ],
+      "agent_ownership": {
+        "Agent_1": [
+          "arg_5"
+        ],
+        "Agent_2": [
+          "arg_2",
+          "arg_4"
+        ],
+        "Agent_3": [
+          "arg_1",
+          "arg_3",
+          "arg_6",
+          "arg_7"
+        ]
+      }
+    },
+    {
+      "instance_id": 57,
+      "p": 0.15,
+      "num_arguments": 6,
+      "num_attacks": 9,
+      "is_strategyproof": true,
+      "satisfies_theorem_5_4": false,
+      "category": "T5.4 Failed & Strategyproof",
+      "counterexample_count": 0,
+      "t5_4_violations_count": 3,
+      "arguments": [
+        "arg_1",
+        "arg_2",
+        "arg_3",
+        "arg_4",
+        "arg_5",
+        "arg_6"
+      ],
+      "attacks": [
+        [
+          "arg_1",
+          "arg_2"
+        ],
+        [
+          "arg_1",
+          "arg_3"
+        ],
+        [
+          "arg_1",
+          "arg_5"
+        ],
+        [
+          "arg_1",
+          "arg_6"
+        ],
+        [
+          "arg_3",
+          "arg_2"
+        ],
+        [
+          "arg_3",
+          "arg_6"
+        ],
+        [
+          "arg_4",
+          "arg_6"
+        ],
+        [
+          "arg_5",
+          "arg_3"
+        ],
+        [
+          "arg_5",
+          "arg_6"
+        ]
+      ],
+      "agent_ownership": {
+        "Agent_1": [
+          "arg_5"
+        ],
+        "Agent_2": [
+          "arg_2",
+          "arg_3",
+          "arg_4",
+          "arg_6"
+        ],
+        "Agent_3": [
+          "arg_1"
+        ]
+      }
+    },
+    {
+      "instance_id": 58,
+      "p": 0.15,
+      "num_arguments": 6,
+      "num_attacks": 4,
+      "is_strategyproof": true,
+      "satisfies_theorem_5_4": false,
+      "category": "T5.4 Failed & Strategyproof",
+      "counterexample_count": 0,
+      "t5_4_violations_count": 1,
+      "arguments": [
+        "arg_1",
+        "arg_2",
+        "arg_3",
+        "arg_4",
+        "arg_5",
+        "arg_6"
+      ],
+      "attacks": [
+        [
+          "arg_1",
+          "arg_2"
+        ],
+        [
+          "arg_2",
+          "arg_3"
+        ],
+        [
+          "arg_2",
+          "arg_5"
+        ],
+        [
+          "arg_6",
+          "arg_4"
+        ]
+      ],
+      "agent_ownership": {
+        "Agent_1": [
+          "arg_2",
+          "arg_4",
+          "arg_5"
+        ],
+        "Agent_2": [
+          "arg_6"
+        ],
+        "Agent_3": [
+          "arg_1",
+          "arg_3"
+        ]
+      }
+    },
+    {
+      "instance_id": 59,
+      "p": 0.15,
+      "num_arguments": 7,
+      "num_attacks": 7,
+      "is_strategyproof": true,
+      "satisfies_theorem_5_4": true,
+      "category": "T5.4 Satisfied & Strategyproof",
+      "counterexample_count": 0,
+      "t5_4_violations_count": 0,
+      "arguments": [
+        "arg_1",
+        "arg_2",
+        "arg_3",
+        "arg_4",
+        "arg_5",
+        "arg_6",
+        "arg_7"
+      ],
+      "attacks": [
+        [
+          "arg_4",
+          "arg_2"
+        ],
+        [
+          "arg_5",
+          "arg_3"
+        ],
+        [
+          "arg_5",
+          "arg_4"
+        ],
+        [
+          "arg_5",
+          "arg_7"
+        ],
+        [
+          "arg_7",
+          "arg_3"
+        ],
+        [
+          "arg_7",
+          "arg_4"
+        ],
+        [
+          "arg_7",
+          "arg_6"
+        ]
+      ],
+      "agent_ownership": {
+        "Agent_1": [
+          "arg_3",
+          "arg_4"
+        ],
+        "Agent_2": [
+          "arg_1",
+          "arg_5",
+          "arg_6"
+        ],
+        "Agent_3": [
+          "arg_2",
+          "arg_7"
+        ]
+      }
+    },
+    {
+      "instance_id": 60,
+      "p": 0.15,
+      "num_arguments": 7,
+      "num_attacks": 5,
+      "is_strategyproof": true,
+      "satisfies_theorem_5_4": false,
+      "category": "T5.4 Failed & Strategyproof",
+      "counterexample_count": 0,
+      "t5_4_violations_count": 1,
+      "arguments": [
+        "arg_1",
+        "arg_2",
+        "arg_3",
+        "arg_4",
+        "arg_5",
+        "arg_6",
+        "arg_7"
+      ],
+      "attacks": [
+        [
+          "arg_1",
+          "arg_2"
+        ],
+        [
+          "arg_3",
+          "arg_6"
+        ],
+        [
+          "arg_4",
+          "arg_7"
+        ],
+        [
+          "arg_6",
+          "arg_1"
+        ],
+        [
+          "arg_7",
+          "arg_1"
+        ]
+      ],
+      "agent_ownership": {
+        "Agent_1": [
+          "arg_1",
+          "arg_4",
+          "arg_6"
+        ],
+        "Agent_2": [
+          "arg_2",
+          "arg_5"
+        ],
+        "Agent_3": [
+          "arg_3",
+          "arg_7"
+        ]
+      }
+    },
+    {
+      "instance_id": 61,
+      "p": 0.15,
+      "num_arguments": 7,
+      "num_attacks": 7,
+      "is_strategyproof": false,
+      "satisfies_theorem_5_4": false,
+      "category": "T5.4 Failed & Not Strategyproof",
+      "counterexample_count": 14,
+      "t5_4_violations_count": 8,
+      "arguments": [
+        "arg_1",
+        "arg_2",
+        "arg_3",
+        "arg_4",
+        "arg_5",
+        "arg_6",
+        "arg_7"
+      ],
+      "attacks": [
+        [
+          "arg_2",
+          "arg_1"
+        ],
+        [
+          "arg_3",
+          "arg_1"
+        ],
+        [
+          "arg_3",
+          "arg_7"
+        ],
+        [
+          "arg_4",
+          "arg_7"
+        ],
+        [
+          "arg_5",
+          "arg_4"
+        ],
+        [
+          "arg_6",
+          "arg_3"
+        ],
+        [
+          "arg_7",
+          "arg_6"
+        ]
+      ],
+      "agent_ownership": {
+        "Agent_1": [
+          "arg_2",
+          "arg_3",
+          "arg_7"
+        ],
+        "Agent_2": [
+          "arg_4",
+          "arg_5",
+          "arg_6"
+        ],
+        "Agent_3": [
+          "arg_1"
+        ]
+      }
+    },
+    {
+      "instance_id": 62,
+      "p": 0.15,
+      "num_arguments": 8,
+      "num_attacks": 9,
+      "is_strategyproof": true,
+      "satisfies_theorem_5_4": false,
+      "category": "T5.4 Failed & Strategyproof",
+      "counterexample_count": 0,
+      "t5_4_violations_count": 2,
+      "arguments": [
+        "arg_1",
+        "arg_2",
+        "arg_3",
+        "arg_4",
+        "arg_5",
+        "arg_6",
+        "arg_7",
+        "arg_8"
+      ],
+      "attacks": [
+        [
+          "arg_1",
+          "arg_4"
+        ],
+        [
+          "arg_2",
+          "arg_1"
+        ],
+        [
+          "arg_3",
+          "arg_5"
+        ],
+        [
+          "arg_4",
+          "arg_5"
+        ],
+        [
+          "arg_5",
+          "arg_3"
+        ],
+        [
+          "arg_6",
+          "arg_8"
+        ],
+        [
+          "arg_7",
+          "arg_5"
+        ],
+        [
+          "arg_8",
+          "arg_5"
+        ],
+        [
+          "arg_8",
+          "arg_6"
+        ]
+      ],
+      "agent_ownership": {
+        "Agent_1": [
+          "arg_3",
+          "arg_8"
+        ],
+        "Agent_2": [
+          "arg_1",
+          "arg_2",
+          "arg_7"
+        ],
+        "Agent_3": [
+          "arg_4",
+          "arg_5",
+          "arg_6"
+        ]
+      }
+    },
+    {
+      "instance_id": 63,
+      "p": 0.15,
+      "num_arguments": 7,
+      "num_attacks": 6,
+      "is_strategyproof": true,
+      "satisfies_theorem_5_4": false,
+      "category": "T5.4 Failed & Strategyproof",
+      "counterexample_count": 0,
+      "t5_4_violations_count": 2,
+      "arguments": [
+        "arg_1",
+        "arg_2",
+        "arg_3",
+        "arg_4",
+        "arg_5",
+        "arg_6",
+        "arg_7"
+      ],
+      "attacks": [
+        [
+          "arg_1",
+          "arg_5"
+        ],
+        [
+          "arg_2",
+          "arg_3"
+        ],
+        [
+          "arg_2",
+          "arg_4"
+        ],
+        [
+          "arg_3",
+          "arg_1"
+        ],
+        [
+          "arg_3",
+          "arg_2"
+        ],
+        [
+          "arg_6",
+          "arg_2"
+        ]
+      ],
+      "agent_ownership": {
+        "Agent_1": [
+          "arg_1"
+        ],
+        "Agent_2": [
+          "arg_3",
+          "arg_5"
+        ],
+        "Agent_3": [
+          "arg_2",
+          "arg_4",
+          "arg_6",
+          "arg_7"
+        ]
+      }
+    },
+    {
+      "instance_id": 64,
+      "p": 0.15,
+      "num_arguments": 6,
+      "num_attacks": 4,
+      "is_strategyproof": true,
+      "satisfies_theorem_5_4": false,
+      "category": "T5.4 Failed & Strategyproof",
+      "counterexample_count": 0,
+      "t5_4_violations_count": 1,
+      "arguments": [
+        "arg_1",
+        "arg_2",
+        "arg_3",
+        "arg_4",
+        "arg_5",
+        "arg_6"
+      ],
+      "attacks": [
+        [
+          "arg_3",
+          "arg_2"
+        ],
+        [
+          "arg_3",
+          "arg_6"
+        ],
+        [
+          "arg_6",
+          "arg_2"
+        ],
+        [
+          "arg_6",
+          "arg_3"
+        ]
+      ],
+      "agent_ownership": {
+        "Agent_1": [
+          "arg_5"
+        ],
+        "Agent_2": [
+          "arg_1",
+          "arg_3"
+        ],
+        "Agent_3": [
+          "arg_2",
+          "arg_4",
+          "arg_6"
+        ]
+      }
+    },
+    {
+      "instance_id": 65,
+      "p": 0.15,
+      "num_arguments": 6,
+      "num_attacks": 3,
+      "is_strategyproof": true,
+      "satisfies_theorem_5_4": true,
+      "category": "T5.4 Satisfied & Strategyproof",
+      "counterexample_count": 0,
+      "t5_4_violations_count": 0,
+      "arguments": [
+        "arg_1",
+        "arg_2",
+        "arg_3",
+        "arg_4",
+        "arg_5",
+        "arg_6"
+      ],
+      "attacks": [
+        [
+          "arg_3",
+          "arg_1"
+        ],
+        [
+          "arg_3",
+          "arg_5"
+        ],
+        [
+          "arg_4",
+          "arg_3"
+        ]
+      ],
+      "agent_ownership": {
+        "Agent_1": [
+          "arg_3"
+        ],
+        "Agent_2": [
+          "arg_2"
+        ],
+        "Agent_3": [
+          "arg_1",
+          "arg_4",
+          "arg_5",
+          "arg_6"
+        ]
+      }
+    },
+    {
+      "instance_id": 66,
+      "p": 0.15,
+      "num_arguments": 8,
+      "num_attacks": 3,
+      "is_strategyproof": true,
+      "satisfies_theorem_5_4": false,
+      "category": "T5.4 Failed & Strategyproof",
+      "counterexample_count": 0,
+      "t5_4_violations_count": 1,
+      "arguments": [
+        "arg_1",
+        "arg_2",
+        "arg_3",
+        "arg_4",
+        "arg_5",
+        "arg_6",
+        "arg_7",
+        "arg_8"
+      ],
+      "attacks": [
+        [
+          "arg_2",
+          "arg_8"
+        ],
+        [
+          "arg_3",
+          "arg_6"
+        ],
+        [
+          "arg_3",
+          "arg_7"
+        ]
+      ],
+      "agent_ownership": {
+        "Agent_1": [
+          "arg_3",
+          "arg_5"
+        ],
+        "Agent_2": [
+          "arg_4",
+          "arg_7"
+        ],
+        "Agent_3": [
+          "arg_1",
+          "arg_2",
+          "arg_6",
+          "arg_8"
+        ]
+      }
+    },
+    {
+      "instance_id": 67,
+      "p": 0.15,
+      "num_arguments": 7,
+      "num_attacks": 8,
+      "is_strategyproof": true,
+      "satisfies_theorem_5_4": false,
+      "category": "T5.4 Failed & Strategyproof",
+      "counterexample_count": 0,
+      "t5_4_violations_count": 6,
+      "arguments": [
+        "arg_1",
+        "arg_2",
+        "arg_3",
+        "arg_4",
+        "arg_5",
+        "arg_6",
+        "arg_7"
+      ],
+      "attacks": [
+        [
+          "arg_2",
+          "arg_4"
+        ],
+        [
+          "arg_2",
+          "arg_7"
+        ],
+        [
+          "arg_3",
+          "arg_5"
+        ],
+        [
+          "arg_4",
+          "arg_7"
+        ],
+        [
+          "arg_5",
+          "arg_6"
+        ],
+        [
+          "arg_6",
+          "arg_7"
+        ],
+        [
+          "arg_7",
+          "arg_1"
+        ],
+        [
+          "arg_7",
+          "arg_6"
+        ]
+      ],
+      "agent_ownership": {
+        "Agent_1": [
+          "arg_4"
+        ],
+        "Agent_2": [
+          "arg_2",
+          "arg_3",
+          "arg_6",
+          "arg_7"
+        ],
+        "Agent_3": [
+          "arg_1",
+          "arg_5"
+        ]
+      }
+    },
+    {
+      "instance_id": 68,
+      "p": 0.15,
+      "num_arguments": 8,
+      "num_attacks": 10,
+      "is_strategyproof": false,
+      "satisfies_theorem_5_4": false,
+      "category": "T5.4 Failed & Not Strategyproof",
+      "counterexample_count": 68,
+      "t5_4_violations_count": 20,
+      "arguments": [
+        "arg_1",
+        "arg_2",
+        "arg_3",
+        "arg_4",
+        "arg_5",
+        "arg_6",
+        "arg_7",
+        "arg_8"
+      ],
+      "attacks": [
+        [
+          "arg_2",
+          "arg_8"
+        ],
+        [
+          "arg_3",
+          "arg_7"
+        ],
+        [
+          "arg_4",
+          "arg_3"
+        ],
+        [
+          "arg_4",
+          "arg_8"
+        ],
+        [
+          "arg_6",
+          "arg_8"
+        ],
+        [
+          "arg_7",
+          "arg_2"
+        ],
+        [
+          "arg_7",
+          "arg_4"
+        ],
+        [
+          "arg_7",
+          "arg_5"
+        ],
+        [
+          "arg_7",
+          "arg_6"
+        ],
+        [
+          "arg_8",
+          "arg_7"
+        ]
+      ],
+      "agent_ownership": {
+        "Agent_1": [
+          "arg_2",
+          "arg_3",
+          "arg_6",
+          "arg_7"
+        ],
+        "Agent_2": [
+          "arg_5"
+        ],
+        "Agent_3": [
+          "arg_1",
+          "arg_4",
+          "arg_8"
+        ]
+      }
+    },
+    {
+      "instance_id": 69,
+      "p": 0.15,
+      "num_arguments": 8,
+      "num_attacks": 8,
+      "is_strategyproof": true,
+      "satisfies_theorem_5_4": false,
+      "category": "T5.4 Failed & Strategyproof",
+      "counterexample_count": 0,
+      "t5_4_violations_count": 3,
+      "arguments": [
+        "arg_1",
+        "arg_2",
+        "arg_3",
+        "arg_4",
+        "arg_5",
+        "arg_6",
+        "arg_7",
+        "arg_8"
+      ],
+      "attacks": [
+        [
+          "arg_1",
+          "arg_5"
+        ],
+        [
+          "arg_2",
+          "arg_5"
+        ],
+        [
+          "arg_3",
+          "arg_5"
+        ],
+        [
+          "arg_3",
+          "arg_8"
+        ],
+        [
+          "arg_4",
+          "arg_1"
+        ],
+        [
+          "arg_5",
+          "arg_3"
+        ],
+        [
+          "arg_6",
+          "arg_5"
+        ],
+        [
+          "arg_7",
+          "arg_2"
+        ]
+      ],
+      "agent_ownership": {
+        "Agent_1": [
+          "arg_3",
+          "arg_4"
+        ],
+        "Agent_2": [
+          "arg_2",
+          "arg_6"
+        ],
+        "Agent_3": [
+          "arg_1",
+          "arg_5",
+          "arg_7",
+          "arg_8"
+        ]
+      }
+    },
+    {
+      "instance_id": 70,
+      "p": 0.15,
+      "num_arguments": 8,
+      "num_attacks": 9,
+      "is_strategyproof": true,
+      "satisfies_theorem_5_4": false,
+      "category": "T5.4 Failed & Strategyproof",
+      "counterexample_count": 0,
+      "t5_4_violations_count": 5,
+      "arguments": [
+        "arg_1",
+        "arg_2",
+        "arg_3",
+        "arg_4",
+        "arg_5",
+        "arg_6",
+        "arg_7",
+        "arg_8"
+      ],
+      "attacks": [
+        [
+          "arg_2",
+          "arg_3"
+        ],
+        [
+          "arg_3",
+          "arg_5"
+        ],
+        [
+          "arg_4",
+          "arg_3"
+        ],
+        [
+          "arg_4",
+          "arg_8"
+        ],
+        [
+          "arg_6",
+          "arg_3"
+        ],
+        [
+          "arg_6",
+          "arg_7"
+        ],
+        [
+          "arg_7",
+          "arg_2"
+        ],
+        [
+          "arg_7",
+          "arg_3"
+        ],
+        [
+          "arg_8",
+          "arg_5"
+        ]
+      ],
+      "agent_ownership": {
+        "Agent_1": [
+          "arg_2",
+          "arg_3",
+          "arg_7"
+        ],
+        "Agent_2": [
+          "arg_5",
+          "arg_6",
+          "arg_8"
+        ],
+        "Agent_3": [
+          "arg_1",
+          "arg_4"
+        ]
+      }
+    },
+    {
+      "instance_id": 71,
+      "p": 0.15,
+      "num_arguments": 8,
+      "num_attacks": 8,
+      "is_strategyproof": true,
+      "satisfies_theorem_5_4": false,
+      "category": "T5.4 Failed & Strategyproof",
+      "counterexample_count": 0,
+      "t5_4_violations_count": 4,
+      "arguments": [
+        "arg_1",
+        "arg_2",
+        "arg_3",
+        "arg_4",
+        "arg_5",
+        "arg_6",
+        "arg_7",
+        "arg_8"
+      ],
+      "attacks": [
+        [
+          "arg_1",
+          "arg_6"
+        ],
+        [
+          "arg_1",
+          "arg_8"
+        ],
+        [
+          "arg_2",
+          "arg_4"
+        ],
+        [
+          "arg_3",
+          "arg_5"
+        ],
+        [
+          "arg_4",
+          "arg_7"
+        ],
+        [
+          "arg_5",
+          "arg_2"
+        ],
+        [
+          "arg_6",
+          "arg_4"
+        ],
+        [
+          "arg_8",
+          "arg_3"
+        ]
+      ],
+      "agent_ownership": {
+        "Agent_1": [
+          "arg_4"
+        ],
+        "Agent_2": [
+          "arg_3",
+          "arg_6",
+          "arg_7"
+        ],
+        "Agent_3": [
+          "arg_1",
+          "arg_2",
+          "arg_5",
+          "arg_8"
+        ]
+      }
+    },
+    {
+      "instance_id": 72,
+      "p": 0.15,
+      "num_arguments": 8,
+      "num_attacks": 9,
+      "is_strategyproof": true,
+      "satisfies_theorem_5_4": false,
+      "category": "T5.4 Failed & Strategyproof",
+      "counterexample_count": 0,
+      "t5_4_violations_count": 2,
+      "arguments": [
+        "arg_1",
+        "arg_2",
+        "arg_3",
+        "arg_4",
+        "arg_5",
+        "arg_6",
+        "arg_7",
+        "arg_8"
+      ],
+      "attacks": [
+        [
+          "arg_1",
+          "arg_2"
+        ],
+        [
+          "arg_3",
+          "arg_5"
+        ],
+        [
+          "arg_3",
+          "arg_6"
+        ],
+        [
+          "arg_3",
+          "arg_8"
+        ],
+        [
+          "arg_4",
+          "arg_1"
+        ],
+        [
+          "arg_4",
+          "arg_7"
+        ],
+        [
+          "arg_4",
+          "arg_8"
+        ],
+        [
+          "arg_7",
+          "arg_2"
+        ],
+        [
+          "arg_8",
+          "arg_1"
+        ]
+      ],
+      "agent_ownership": {
+        "Agent_1": [
+          "arg_4",
+          "arg_5",
+          "arg_6"
+        ],
+        "Agent_2": [
+          "arg_1",
+          "arg_2",
+          "arg_8"
+        ],
+        "Agent_3": [
+          "arg_3",
+          "arg_7"
+        ]
+      }
+    },
+    {
+      "instance_id": 73,
+      "p": 0.15,
+      "num_arguments": 6,
+      "num_attacks": 5,
+      "is_strategyproof": false,
+      "satisfies_theorem_5_4": false,
+      "category": "T5.4 Failed & Not Strategyproof",
+      "counterexample_count": 24,
+      "t5_4_violations_count": 3,
+      "arguments": [
+        "arg_1",
+        "arg_2",
+        "arg_3",
+        "arg_4",
+        "arg_5",
+        "arg_6"
+      ],
+      "attacks": [
+        [
+          "arg_1",
+          "arg_4"
+        ],
+        [
+          "arg_1",
+          "arg_5"
+        ],
+        [
+          "arg_2",
+          "arg_5"
+        ],
+        [
+          "arg_3",
+          "arg_2"
+        ],
+        [
+          "arg_5",
+          "arg_1"
+        ]
+      ],
+      "agent_ownership": {
+        "Agent_1": [
+          "arg_1",
+          "arg_5"
+        ],
+        "Agent_2": [
+          "arg_4"
+        ],
+        "Agent_3": [
+          "arg_2",
+          "arg_3",
+          "arg_6"
+        ]
+      }
+    },
+    {
+      "instance_id": 74,
+      "p": 0.15,
+      "num_arguments": 7,
+      "num_attacks": 5,
+      "is_strategyproof": true,
+      "satisfies_theorem_5_4": false,
+      "category": "T5.4 Failed & Strategyproof",
+      "counterexample_count": 0,
+      "t5_4_violations_count": 4,
+      "arguments": [
+        "arg_1",
+        "arg_2",
+        "arg_3",
+        "arg_4",
+        "arg_5",
+        "arg_6",
+        "arg_7"
+      ],
+      "attacks": [
+        [
+          "arg_1",
+          "arg_5"
+        ],
+        [
+          "arg_4",
+          "arg_6"
+        ],
+        [
+          "arg_6",
+          "arg_1"
+        ],
+        [
+          "arg_6",
+          "arg_2"
+        ],
+        [
+          "arg_7",
+          "arg_1"
+        ]
+      ],
+      "agent_ownership": {
+        "Agent_1": [
+          "arg_1",
+          "arg_2",
+          "arg_4",
+          "arg_6",
+          "arg_7"
+        ],
+        "Agent_2": [
+          "arg_3"
+        ],
+        "Agent_3": [
+          "arg_5"
+        ]
+      }
+    },
+    {
+      "instance_id": 75,
+      "p": 0.15,
+      "num_arguments": 6,
+      "num_attacks": 5,
+      "is_strategyproof": true,
+      "satisfies_theorem_5_4": false,
+      "category": "T5.4 Failed & Strategyproof",
+      "counterexample_count": 0,
+      "t5_4_violations_count": 1,
+      "arguments": [
+        "arg_1",
+        "arg_2",
+        "arg_3",
+        "arg_4",
+        "arg_5",
+        "arg_6"
+      ],
+      "attacks": [
+        [
+          "arg_2",
+          "arg_5"
+        ],
+        [
+          "arg_4",
+          "arg_2"
+        ],
+        [
+          "arg_4",
+          "arg_5"
+        ],
+        [
+          "arg_5",
+          "arg_2"
+        ],
+        [
+          "arg_6",
+          "arg_4"
+        ]
+      ],
+      "agent_ownership": {
+        "Agent_1": [
+          "arg_1",
+          "arg_2"
+        ],
+        "Agent_2": [
+          "arg_6"
+        ],
+        "Agent_3": [
+          "arg_3",
+          "arg_4",
+          "arg_5"
+        ]
+      }
+    },
+    {
+      "instance_id": 76,
+      "p": 0.15,
+      "num_arguments": 6,
+      "num_attacks": 4,
+      "is_strategyproof": true,
+      "satisfies_theorem_5_4": false,
+      "category": "T5.4 Failed & Strategyproof",
+      "counterexample_count": 0,
+      "t5_4_violations_count": 2,
+      "arguments": [
+        "arg_1",
+        "arg_2",
+        "arg_3",
+        "arg_4",
+        "arg_5",
+        "arg_6"
+      ],
+      "attacks": [
+        [
+          "arg_1",
+          "arg_2"
+        ],
+        [
+          "arg_1",
+          "arg_3"
+        ],
+        [
+          "arg_6",
+          "arg_1"
+        ],
+        [
+          "arg_6",
+          "arg_2"
+        ]
+      ],
+      "agent_ownership": {
+        "Agent_1": [
+          "arg_1",
+          "arg_3"
+        ],
+        "Agent_2": [
+          "arg_2",
+          "arg_4",
+          "arg_6"
+        ],
+        "Agent_3": [
+          "arg_5"
+        ]
+      }
+    },
+    {
+      "instance_id": 77,
+      "p": 0.15,
+      "num_arguments": 7,
+      "num_attacks": 3,
+      "is_strategyproof": true,
+      "satisfies_theorem_5_4": true,
+      "category": "T5.4 Satisfied & Strategyproof",
+      "counterexample_count": 0,
+      "t5_4_violations_count": 0,
+      "arguments": [
+        "arg_1",
+        "arg_2",
+        "arg_3",
+        "arg_4",
+        "arg_5",
+        "arg_6",
+        "arg_7"
+      ],
+      "attacks": [
+        [
+          "arg_4",
+          "arg_3"
+        ],
+        [
+          "arg_4",
+          "arg_6"
+        ],
+        [
+          "arg_7",
+          "arg_2"
+        ]
+      ],
+      "agent_ownership": {
+        "Agent_1": [
+          "arg_1",
+          "arg_7"
+        ],
+        "Agent_2": [
+          "arg_4",
+          "arg_5"
+        ],
+        "Agent_3": [
+          "arg_2",
+          "arg_3",
+          "arg_6"
+        ]
+      }
+    },
+    {
+      "instance_id": 78,
+      "p": 0.15,
+      "num_arguments": 6,
+      "num_attacks": 3,
+      "is_strategyproof": true,
+      "satisfies_theorem_5_4": false,
+      "category": "T5.4 Failed & Strategyproof",
+      "counterexample_count": 0,
+      "t5_4_violations_count": 1,
+      "arguments": [
+        "arg_1",
+        "arg_2",
+        "arg_3",
+        "arg_4",
+        "arg_5",
+        "arg_6"
+      ],
+      "attacks": [
+        [
+          "arg_4",
+          "arg_5"
+        ],
+        [
+          "arg_5",
+          "arg_1"
+        ],
+        [
+          "arg_6",
+          "arg_2"
+        ]
+      ],
+      "agent_ownership": {
+        "Agent_1": [
+          "arg_2"
+        ],
+        "Agent_2": [
+          "arg_1",
+          "arg_5",
+          "arg_6"
+        ],
+        "Agent_3": [
+          "arg_3",
+          "arg_4"
+        ]
+      }
+    },
+    {
+      "instance_id": 79,
+      "p": 0.15,
+      "num_arguments": 7,
+      "num_attacks": 6,
+      "is_strategyproof": true,
+      "satisfies_theorem_5_4": true,
+      "category": "T5.4 Satisfied & Strategyproof",
+      "counterexample_count": 0,
+      "t5_4_violations_count": 0,
+      "arguments": [
+        "arg_1",
+        "arg_2",
+        "arg_3",
+        "arg_4",
+        "arg_5",
+        "arg_6",
+        "arg_7"
+      ],
+      "attacks": [
+        [
+          "arg_1",
+          "arg_4"
+        ],
+        [
+          "arg_2",
+          "arg_7"
+        ],
+        [
+          "arg_5",
+          "arg_1"
+        ],
+        [
+          "arg_6",
+          "arg_2"
+        ],
+        [
+          "arg_6",
+          "arg_4"
+        ],
+        [
+          "arg_7",
+          "arg_1"
+        ]
+      ],
+      "agent_ownership": {
+        "Agent_1": [
+          "arg_5",
+          "arg_6"
+        ],
+        "Agent_2": [
+          "arg_1",
+          "arg_2",
+          "arg_3"
+        ],
+        "Agent_3": [
+          "arg_4",
+          "arg_7"
+        ]
+      }
+    },
+    {
+      "instance_id": 80,
+      "p": 0.15,
+      "num_arguments": 6,
+      "num_attacks": 6,
+      "is_strategyproof": true,
+      "satisfies_theorem_5_4": false,
+      "category": "T5.4 Failed & Strategyproof",
+      "counterexample_count": 0,
+      "t5_4_violations_count": 2,
+      "arguments": [
+        "arg_1",
+        "arg_2",
+        "arg_3",
+        "arg_4",
+        "arg_5",
+        "arg_6"
+      ],
+      "attacks": [
+        [
+          "arg_3",
+          "arg_5"
+        ],
+        [
+          "arg_4",
+          "arg_5"
+        ],
+        [
+          "arg_4",
+          "arg_6"
+        ],
+        [
+          "arg_5",
+          "arg_3"
+        ],
+        [
+          "arg_6",
+          "arg_1"
+        ],
+        [
+          "arg_6",
+          "arg_3"
+        ]
+      ],
+      "agent_ownership": {
+        "Agent_1": [
+          "arg_3"
+        ],
+        "Agent_2": [
+          "arg_1",
+          "arg_6"
+        ],
+        "Agent_3": [
+          "arg_2",
+          "arg_4",
+          "arg_5"
+        ]
+      }
+    },
+    {
+      "instance_id": 81,
+      "p": 0.15,
+      "num_arguments": 6,
+      "num_attacks": 4,
+      "is_strategyproof": true,
+      "satisfies_theorem_5_4": false,
+      "category": "T5.4 Failed & Strategyproof",
+      "counterexample_count": 0,
+      "t5_4_violations_count": 2,
+      "arguments": [
+        "arg_1",
+        "arg_2",
+        "arg_3",
+        "arg_4",
+        "arg_5",
+        "arg_6"
+      ],
+      "attacks": [
+        [
+          "arg_3",
+          "arg_4"
+        ],
+        [
+          "arg_4",
+          "arg_2"
+        ],
+        [
+          "arg_4",
+          "arg_5"
+        ],
+        [
+          "arg_6",
+          "arg_1"
+        ]
+      ],
+      "agent_ownership": {
+        "Agent_1": [
+          "arg_1",
+          "arg_6"
+        ],
+        "Agent_2": [
+          "arg_2",
+          "arg_3"
+        ],
+        "Agent_3": [
+          "arg_4",
+          "arg_5"
+        ]
+      }
+    },
+    {
+      "instance_id": 82,
+      "p": 0.15,
+      "num_arguments": 8,
+      "num_attacks": 9,
+      "is_strategyproof": false,
+      "satisfies_theorem_5_4": false,
+      "category": "T5.4 Failed & Not Strategyproof",
+      "counterexample_count": 80,
+      "t5_4_violations_count": 5,
+      "arguments": [
+        "arg_1",
+        "arg_2",
+        "arg_3",
+        "arg_4",
+        "arg_5",
+        "arg_6",
+        "arg_7",
+        "arg_8"
+      ],
+      "attacks": [
+        [
+          "arg_4",
+          "arg_2"
+        ],
+        [
+          "arg_4",
+          "arg_3"
+        ],
+        [
+          "arg_4",
+          "arg_5"
+        ],
+        [
+          "arg_4",
+          "arg_8"
+        ],
+        [
+          "arg_5",
+          "arg_2"
+        ],
+        [
+          "arg_5",
+          "arg_3"
+        ],
+        [
+          "arg_7",
+          "arg_4"
+        ],
+        [
+          "arg_8",
+          "arg_2"
+        ],
+        [
+          "arg_8",
+          "arg_4"
+        ]
+      ],
+      "agent_ownership": {
+        "Agent_1": [
+          "arg_4",
+          "arg_5",
+          "arg_8"
+        ],
+        "Agent_2": [
+          "arg_1"
+        ],
+        "Agent_3": [
+          "arg_2",
+          "arg_3",
+          "arg_6",
+          "arg_7"
+        ]
+      }
+    },
+    {
+      "instance_id": 83,
+      "p": 0.15,
+      "num_arguments": 7,
+      "num_attacks": 2,
+      "is_strategyproof": true,
+      "satisfies_theorem_5_4": true,
+      "category": "T5.4 Satisfied & Strategyproof",
+      "counterexample_count": 0,
+      "t5_4_violations_count": 0,
+      "arguments": [
+        "arg_1",
+        "arg_2",
+        "arg_3",
+        "arg_4",
+        "arg_5",
+        "arg_6",
+        "arg_7"
+      ],
+      "attacks": [
+        [
+          "arg_2",
+          "arg_5"
+        ],
+        [
+          "arg_3",
+          "arg_5"
+        ]
+      ],
+      "agent_ownership": {
+        "Agent_1": [
+          "arg_2",
+          "arg_3"
+        ],
+        "Agent_2": [
+          "arg_1",
+          "arg_4",
+          "arg_5",
+          "arg_7"
+        ],
+        "Agent_3": [
+          "arg_6"
+        ]
+      }
+    },
+    {
+      "instance_id": 84,
+      "p": 0.15,
+      "num_arguments": 8,
+      "num_attacks": 4,
+      "is_strategyproof": true,
+      "satisfies_theorem_5_4": false,
+      "category": "T5.4 Failed & Strategyproof",
+      "counterexample_count": 0,
+      "t5_4_violations_count": 2,
+      "arguments": [
+        "arg_1",
+        "arg_2",
+        "arg_3",
+        "arg_4",
+        "arg_5",
+        "arg_6",
+        "arg_7",
+        "arg_8"
+      ],
+      "attacks": [
+        [
+          "arg_2",
+          "arg_8"
+        ],
+        [
+          "arg_3",
+          "arg_8"
+        ],
+        [
+          "arg_5",
+          "arg_7"
+        ],
+        [
+          "arg_7",
+          "arg_4"
+        ]
+      ],
+      "agent_ownership": {
+        "Agent_1": [
+          "arg_1",
+          "arg_2",
+          "arg_8"
+        ],
+        "Agent_2": [
+          "arg_3",
+          "arg_5",
+          "arg_7"
+        ],
+        "Agent_3": [
+          "arg_4",
+          "arg_6"
+        ]
+      }
+    },
+    {
+      "instance_id": 85,
+      "p": 0.15,
+      "num_arguments": 8,
+      "num_attacks": 6,
+      "is_strategyproof": true,
+      "satisfies_theorem_5_4": true,
+      "category": "T5.4 Satisfied & Strategyproof",
+      "counterexample_count": 0,
+      "t5_4_violations_count": 0,
+      "arguments": [
+        "arg_1",
+        "arg_2",
+        "arg_3",
+        "arg_4",
+        "arg_5",
+        "arg_6",
+        "arg_7",
+        "arg_8"
+      ],
+      "attacks": [
+        [
+          "arg_2",
+          "arg_5"
+        ],
+        [
+          "arg_2",
+          "arg_7"
+        ],
+        [
+          "arg_3",
+          "arg_8"
+        ],
+        [
+          "arg_4",
+          "arg_1"
+        ],
+        [
+          "arg_4",
+          "arg_7"
+        ],
+        [
+          "arg_7",
+          "arg_5"
+        ]
+      ],
+      "agent_ownership": {
+        "Agent_1": [
+          "arg_7"
+        ],
+        "Agent_2": [
+          "arg_1",
+          "arg_3",
+          "arg_5"
+        ],
+        "Agent_3": [
+          "arg_2",
+          "arg_4",
+          "arg_6",
+          "arg_8"
+        ]
+      }
+    },
+    {
+      "instance_id": 86,
+      "p": 0.15,
+      "num_arguments": 8,
+      "num_attacks": 9,
+      "is_strategyproof": true,
+      "satisfies_theorem_5_4": false,
+      "category": "T5.4 Failed & Strategyproof",
+      "counterexample_count": 0,
+      "t5_4_violations_count": 2,
+      "arguments": [
+        "arg_1",
+        "arg_2",
+        "arg_3",
+        "arg_4",
+        "arg_5",
+        "arg_6",
+        "arg_7",
+        "arg_8"
+      ],
+      "attacks": [
+        [
+          "arg_2",
+          "arg_4"
+        ],
+        [
+          "arg_3",
+          "arg_4"
+        ],
+        [
+          "arg_3",
+          "arg_7"
+        ],
+        [
+          "arg_4",
+          "arg_3"
+        ],
+        [
+          "arg_4",
+          "arg_6"
+        ],
+        [
+          "arg_5",
+          "arg_4"
+        ],
+        [
+          "arg_5",
+          "arg_8"
+        ],
+        [
+          "arg_7",
+          "arg_1"
+        ],
+        [
+          "arg_8",
+          "arg_7"
+        ]
+      ],
+      "agent_ownership": {
+        "Agent_1": [
+          "arg_2",
+          "arg_4",
+          "arg_8"
+        ],
+        "Agent_2": [
+          "arg_1",
+          "arg_3",
+          "arg_5"
+        ],
+        "Agent_3": [
+          "arg_6",
+          "arg_7"
+        ]
+      }
+    },
+    {
+      "instance_id": 87,
+      "p": 0.15,
+      "num_arguments": 7,
+      "num_attacks": 5,
+      "is_strategyproof": true,
+      "satisfies_theorem_5_4": false,
+      "category": "T5.4 Failed & Strategyproof",
+      "counterexample_count": 0,
+      "t5_4_violations_count": 2,
+      "arguments": [
+        "arg_1",
+        "arg_2",
+        "arg_3",
+        "arg_4",
+        "arg_5",
+        "arg_6",
+        "arg_7"
+      ],
+      "attacks": [
+        [
+          "arg_4",
+          "arg_1"
+        ],
+        [
+          "arg_5",
+          "arg_7"
+        ],
+        [
+          "arg_6",
+          "arg_1"
+        ],
+        [
+          "arg_6",
+          "arg_2"
+        ],
+        [
+          "arg_7",
+          "arg_4"
+        ]
+      ],
+      "agent_ownership": {
+        "Agent_1": [
+          "arg_1",
+          "arg_2",
+          "arg_4",
+          "arg_7"
+        ],
+        "Agent_2": [
+          "arg_3",
+          "arg_6"
+        ],
+        "Agent_3": [
+          "arg_5"
+        ]
+      }
+    },
+    {
+      "instance_id": 88,
+      "p": 0.15,
+      "num_arguments": 7,
+      "num_attacks": 7,
+      "is_strategyproof": true,
+      "satisfies_theorem_5_4": false,
+      "category": "T5.4 Failed & Strategyproof",
+      "counterexample_count": 0,
+      "t5_4_violations_count": 2,
+      "arguments": [
+        "arg_1",
+        "arg_2",
+        "arg_3",
+        "arg_4",
+        "arg_5",
+        "arg_6",
+        "arg_7"
+      ],
+      "attacks": [
+        [
+          "arg_1",
+          "arg_7"
+        ],
+        [
+          "arg_2",
+          "arg_1"
+        ],
+        [
+          "arg_2",
+          "arg_4"
+        ],
+        [
+          "arg_3",
+          "arg_6"
+        ],
+        [
+          "arg_5",
+          "arg_2"
+        ],
+        [
+          "arg_6",
+          "arg_7"
+        ],
+        [
+          "arg_7",
+          "arg_4"
+        ]
+      ],
+      "agent_ownership": {
+        "Agent_1": [
+          "arg_6",
+          "arg_7"
+        ],
+        "Agent_2": [
+          "arg_2",
+          "arg_3",
+          "arg_5"
+        ],
+        "Agent_3": [
+          "arg_1",
+          "arg_4"
+        ]
+      }
+    },
+    {
+      "instance_id": 89,
+      "p": 0.15,
+      "num_arguments": 6,
+      "num_attacks": 7,
+      "is_strategyproof": true,
+      "satisfies_theorem_5_4": false,
+      "category": "T5.4 Failed & Strategyproof",
+      "counterexample_count": 0,
+      "t5_4_violations_count": 2,
+      "arguments": [
+        "arg_1",
+        "arg_2",
+        "arg_3",
+        "arg_4",
+        "arg_5",
+        "arg_6"
+      ],
+      "attacks": [
+        [
+          "arg_1",
+          "arg_2"
+        ],
+        [
+          "arg_1",
+          "arg_3"
+        ],
+        [
+          "arg_2",
+          "arg_3"
+        ],
+        [
+          "arg_2",
+          "arg_5"
+        ],
+        [
+          "arg_3",
+          "arg_5"
+        ],
+        [
+          "arg_4",
+          "arg_3"
+        ],
+        [
+          "arg_6",
+          "arg_3"
+        ]
+      ],
+      "agent_ownership": {
+        "Agent_1": [
+          "arg_1",
+          "arg_3",
+          "arg_4"
+        ],
+        "Agent_2": [
+          "arg_2"
+        ],
+        "Agent_3": [
+          "arg_5",
+          "arg_6"
+        ]
+      }
+    },
+    {
+      "instance_id": 90,
+      "p": 0.15,
+      "num_arguments": 8,
+      "num_attacks": 10,
+      "is_strategyproof": false,
+      "satisfies_theorem_5_4": false,
+      "category": "T5.4 Failed & Not Strategyproof",
+      "counterexample_count": 28,
+      "t5_4_violations_count": 9,
+      "arguments": [
+        "arg_1",
+        "arg_2",
+        "arg_3",
+        "arg_4",
+        "arg_5",
+        "arg_6",
+        "arg_7",
+        "arg_8"
+      ],
+      "attacks": [
+        [
+          "arg_1",
+          "arg_8"
+        ],
+        [
+          "arg_2",
+          "arg_6"
+        ],
+        [
+          "arg_3",
+          "arg_2"
+        ],
+        [
+          "arg_5",
+          "arg_2"
+        ],
+        [
+          "arg_5",
+          "arg_4"
+        ],
+        [
+          "arg_5",
+          "arg_7"
+        ],
+        [
+          "arg_6",
+          "arg_3"
+        ],
+        [
+          "arg_7",
+          "arg_5"
+        ],
+        [
+          "arg_8",
+          "arg_3"
+        ],
+        [
+          "arg_8",
+          "arg_5"
+        ]
+      ],
+      "agent_ownership": {
+        "Agent_1": [
+          "arg_1",
+          "arg_2",
+          "arg_7",
+          "arg_8"
+        ],
+        "Agent_2": [
+          "arg_3",
+          "arg_5"
+        ],
+        "Agent_3": [
+          "arg_4",
+          "arg_6"
+        ]
+      }
+    },
+    {
+      "instance_id": 91,
+      "p": 0.15,
+      "num_arguments": 8,
+      "num_attacks": 3,
+      "is_strategyproof": true,
+      "satisfies_theorem_5_4": false,
+      "category": "T5.4 Failed & Strategyproof",
+      "counterexample_count": 0,
+      "t5_4_violations_count": 2,
+      "arguments": [
+        "arg_1",
+        "arg_2",
+        "arg_3",
+        "arg_4",
+        "arg_5",
+        "arg_6",
+        "arg_7",
+        "arg_8"
+      ],
+      "attacks": [
+        [
+          "arg_1",
+          "arg_2"
+        ],
+        [
+          "arg_2",
+          "arg_5"
+        ],
+        [
+          "arg_8",
+          "arg_1"
+        ]
+      ],
+      "agent_ownership": {
+        "Agent_1": [
+          "arg_1",
+          "arg_2",
+          "arg_3"
+        ],
+        "Agent_2": [
+          "arg_4",
+          "arg_5",
+          "arg_8"
+        ],
+        "Agent_3": [
+          "arg_6",
+          "arg_7"
+        ]
+      }
+    },
+    {
+      "instance_id": 92,
+      "p": 0.15,
+      "num_arguments": 7,
+      "num_attacks": 7,
+      "is_strategyproof": false,
+      "satisfies_theorem_5_4": false,
+      "category": "T5.4 Failed & Not Strategyproof",
+      "counterexample_count": 20,
+      "t5_4_violations_count": 8,
+      "arguments": [
+        "arg_1",
+        "arg_2",
+        "arg_3",
+        "arg_4",
+        "arg_5",
+        "arg_6",
+        "arg_7"
+      ],
+      "attacks": [
+        [
+          "arg_1",
+          "arg_3"
+        ],
+        [
+          "arg_3",
+          "arg_6"
+        ],
+        [
+          "arg_3",
+          "arg_7"
+        ],
+        [
+          "arg_5",
+          "arg_4"
+        ],
+        [
+          "arg_6",
+          "arg_2"
+        ],
+        [
+          "arg_6",
+          "arg_4"
+        ],
+        [
+          "arg_7",
+          "arg_1"
+        ]
+      ],
+      "agent_ownership": {
+        "Agent_1": [
+          "arg_3",
+          "arg_7"
+        ],
+        "Agent_2": [
+          "arg_4",
+          "arg_5",
+          "arg_6"
+        ],
+        "Agent_3": [
+          "arg_1",
+          "arg_2"
+        ]
+      }
+    },
+    {
+      "instance_id": 93,
+      "p": 0.15,
+      "num_arguments": 8,
+      "num_attacks": 15,
+      "is_strategyproof": false,
+      "satisfies_theorem_5_4": false,
+      "category": "T5.4 Failed & Not Strategyproof",
+      "counterexample_count": 77,
+      "t5_4_violations_count": 19,
+      "arguments": [
+        "arg_1",
+        "arg_2",
+        "arg_3",
+        "arg_4",
+        "arg_5",
+        "arg_6",
+        "arg_7",
+        "arg_8"
+      ],
+      "attacks": [
+        [
+          "arg_1",
+          "arg_2"
+        ],
+        [
+          "arg_1",
+          "arg_4"
+        ],
+        [
+          "arg_1",
+          "arg_7"
+        ],
+        [
+          "arg_1",
+          "arg_8"
+        ],
+        [
+          "arg_3",
+          "arg_1"
+        ],
+        [
+          "arg_3",
+          "arg_6"
+        ],
+        [
+          "arg_4",
+          "arg_5"
+        ],
+        [
+          "arg_5",
+          "arg_3"
+        ],
+        [
+          "arg_5",
+          "arg_4"
+        ],
+        [
+          "arg_6",
+          "arg_3"
+        ],
+        [
+          "arg_6",
+          "arg_4"
+        ],
+        [
+          "arg_7",
+          "arg_2"
+        ],
+        [
+          "arg_7",
+          "arg_4"
+        ],
+        [
+          "arg_7",
+          "arg_6"
+        ],
+        [
+          "arg_8",
+          "arg_7"
+        ]
+      ],
+      "agent_ownership": {
+        "Agent_1": [
+          "arg_3",
+          "arg_5",
+          "arg_8"
+        ],
+        "Agent_2": [
+          "arg_6",
+          "arg_7"
+        ],
+        "Agent_3": [
+          "arg_1",
+          "arg_2",
+          "arg_4"
+        ]
+      }
+    },
+    {
+      "instance_id": 94,
+      "p": 0.15,
+      "num_arguments": 7,
+      "num_attacks": 6,
+      "is_strategyproof": true,
+      "satisfies_theorem_5_4": false,
+      "category": "T5.4 Failed & Strategyproof",
+      "counterexample_count": 0,
+      "t5_4_violations_count": 5,
+      "arguments": [
+        "arg_1",
+        "arg_2",
+        "arg_3",
+        "arg_4",
+        "arg_5",
+        "arg_6",
+        "arg_7"
+      ],
+      "attacks": [
+        [
+          "arg_1",
+          "arg_2"
+        ],
+        [
+          "arg_1",
+          "arg_4"
+        ],
+        [
+          "arg_2",
+          "arg_4"
+        ],
+        [
+          "arg_3",
+          "arg_4"
+        ],
+        [
+          "arg_4",
+          "arg_6"
+        ],
+        [
+          "arg_7",
+          "arg_4"
+        ]
+      ],
+      "agent_ownership": {
+        "Agent_1": [
+          "arg_6"
+        ],
+        "Agent_2": [
+          "arg_5"
+        ],
+        "Agent_3": [
+          "arg_1",
+          "arg_2",
+          "arg_3",
+          "arg_4",
+          "arg_7"
+        ]
+      }
+    },
+    {
+      "instance_id": 95,
+      "p": 0.15,
+      "num_arguments": 8,
+      "num_attacks": 5,
+      "is_strategyproof": false,
+      "satisfies_theorem_5_4": false,
+      "category": "T5.4 Failed & Not Strategyproof",
+      "counterexample_count": 112,
+      "t5_4_violations_count": 4,
+      "arguments": [
+        "arg_1",
+        "arg_2",
+        "arg_3",
+        "arg_4",
+        "arg_5",
+        "arg_6",
+        "arg_7",
+        "arg_8"
+      ],
+      "attacks": [
+        [
+          "arg_2",
+          "arg_3"
+        ],
+        [
+          "arg_3",
+          "arg_2"
+        ],
+        [
+          "arg_3",
+          "arg_6"
+        ],
+        [
+          "arg_4",
+          "arg_5"
+        ],
+        [
+          "arg_6",
+          "arg_4"
+        ]
+      ],
+      "agent_ownership": {
+        "Agent_1": [
+          "arg_7",
+          "arg_8"
+        ],
+        "Agent_2": [
+          "arg_1",
+          "arg_4",
+          "arg_6"
+        ],
+        "Agent_3": [
+          "arg_2",
+          "arg_3",
+          "arg_5"
+        ]
+      }
+    },
+    {
+      "instance_id": 96,
+      "p": 0.15,
+      "num_arguments": 6,
+      "num_attacks": 3,
+      "is_strategyproof": false,
+      "satisfies_theorem_5_4": false,
+      "category": "T5.4 Failed & Not Strategyproof",
+      "counterexample_count": 8,
+      "t5_4_violations_count": 2,
+      "arguments": [
+        "arg_1",
+        "arg_2",
+        "arg_3",
+        "arg_4",
+        "arg_5",
+        "arg_6"
+      ],
+      "attacks": [
+        [
+          "arg_1",
+          "arg_3"
+        ],
+        [
+          "arg_3",
+          "arg_1"
+        ],
+        [
+          "arg_5",
+          "arg_4"
+        ]
+      ],
+      "agent_ownership": {
+        "Agent_1": [
+          "arg_5"
+        ],
+        "Agent_2": [
+          "arg_1",
+          "arg_2",
+          "arg_3",
+          "arg_6"
+        ],
+        "Agent_3": [
+          "arg_4"
+        ]
+      }
+    },
+    {
+      "instance_id": 97,
+      "p": 0.15,
+      "num_arguments": 7,
+      "num_attacks": 6,
+      "is_strategyproof": false,
+      "satisfies_theorem_5_4": false,
+      "category": "T5.4 Failed & Not Strategyproof",
+      "counterexample_count": 6,
+      "t5_4_violations_count": 2,
+      "arguments": [
+        "arg_1",
+        "arg_2",
+        "arg_3",
+        "arg_4",
+        "arg_5",
+        "arg_6",
+        "arg_7"
+      ],
+      "attacks": [
+        [
+          "arg_2",
+          "arg_3"
+        ],
+        [
+          "arg_3",
+          "arg_5"
+        ],
+        [
+          "arg_4",
+          "arg_3"
+        ],
+        [
+          "arg_5",
+          "arg_3"
+        ],
+        [
+          "arg_5",
+          "arg_7"
+        ],
+        [
+          "arg_7",
+          "arg_1"
+        ]
+      ],
+      "agent_ownership": {
+        "Agent_1": [
+          "arg_5"
+        ],
+        "Agent_2": [
+          "arg_1",
+          "arg_3",
+          "arg_7"
+        ],
+        "Agent_3": [
+          "arg_2",
+          "arg_4",
+          "arg_6"
+        ]
+      }
+    },
+    {
+      "instance_id": 98,
+      "p": 0.15,
+      "num_arguments": 6,
+      "num_attacks": 7,
+      "is_strategyproof": true,
+      "satisfies_theorem_5_4": false,
+      "category": "T5.4 Failed & Strategyproof",
+      "counterexample_count": 0,
+      "t5_4_violations_count": 1,
+      "arguments": [
+        "arg_1",
+        "arg_2",
+        "arg_3",
+        "arg_4",
+        "arg_5",
+        "arg_6"
+      ],
+      "attacks": [
+        [
+          "arg_1",
+          "arg_2"
+        ],
+        [
+          "arg_1",
+          "arg_3"
+        ],
+        [
+          "arg_2",
+          "arg_5"
+        ],
+        [
+          "arg_3",
+          "arg_6"
+        ],
+        [
+          "arg_5",
+          "arg_2"
+        ],
+        [
+          "arg_5",
+          "arg_3"
+        ],
+        [
+          "arg_5",
+          "arg_6"
+        ]
+      ],
+      "agent_ownership": {
+        "Agent_1": [
+          "arg_2"
+        ],
+        "Agent_2": [
+          "arg_3",
+          "arg_6"
+        ],
+        "Agent_3": [
+          "arg_1",
+          "arg_4",
+          "arg_5"
+        ]
+      }
+    },
+    {
+      "instance_id": 99,
+      "p": 0.15,
+      "num_arguments": 8,
+      "num_attacks": 8,
+      "is_strategyproof": false,
+      "satisfies_theorem_5_4": false,
+      "category": "T5.4 Failed & Not Strategyproof",
+      "counterexample_count": 4,
+      "t5_4_violations_count": 3,
+      "arguments": [
+        "arg_1",
+        "arg_2",
+        "arg_3",
+        "arg_4",
+        "arg_5",
+        "arg_6",
+        "arg_7",
+        "arg_8"
+      ],
+      "attacks": [
+        [
+          "arg_2",
+          "arg_1"
+        ],
+        [
+          "arg_2",
+          "arg_6"
+        ],
+        [
+          "arg_3",
+          "arg_2"
+        ],
+        [
+          "arg_4",
+          "arg_2"
+        ],
+        [
+          "arg_6",
+          "arg_2"
+        ],
+        [
+          "arg_7",
+          "arg_4"
+        ],
+        [
+          "arg_7",
+          "arg_5"
+        ],
+        [
+          "arg_7",
+          "arg_8"
+        ]
+      ],
+      "agent_ownership": {
+        "Agent_1": [
+          "arg_1",
+          "arg_4"
+        ],
+        "Agent_2": [
+          "arg_5",
+          "arg_6",
+          "arg_7"
+        ],
+        "Agent_3": [
+          "arg_2",
+          "arg_3",
+          "arg_8"
+        ]
+      }
+    },
+    {
+      "instance_id": 100,
+      "p": 0.15,
+      "num_arguments": 6,
+      "num_attacks": 1,
+      "is_strategyproof": true,
+      "satisfies_theorem_5_4": false,
+      "category": "T5.4 Failed & Strategyproof",
+      "counterexample_count": 0,
+      "t5_4_violations_count": 1,
+      "arguments": [
+        "arg_1",
+        "arg_2",
+        "arg_3",
+        "arg_4",
+        "arg_5",
+        "arg_6"
+      ],
+      "attacks": [
+        [
+          "arg_1",
+          "arg_6"
+        ]
+      ],
+      "agent_ownership": {
+        "Agent_1": [
+          "arg_2",
+          "arg_4"
+        ],
+        "Agent_2": [
+          "arg_5"
+        ],
+        "Agent_3": [
+          "arg_1",
+          "arg_3",
+          "arg_6"
+        ]
+      }
+    }
+  ]
+}
